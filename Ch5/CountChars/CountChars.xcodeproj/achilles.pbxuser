@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FBF206A0DF60487003312A4 /* CountChars */;
+		activeTarget = 8D1107260486CEB800E47090 /* CountChars */;
+		codeSenseManager = 6FBF20730DF6048B003312A4 /* Code sense */;
+		executables = (
+			6FBF206A0DF60487003312A4 /* CountChars */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 234234166;
+			PBXWorkspaceStateSaveDate = 234234166;
+		};
+		sourceControlManager = 6FBF20720DF6048B003312A4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FBF206A0DF60487003312A4 /* CountChars */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CountChars;
+		sourceDirectories = (
+		);
+	};
+	6FBF20720DF6048B003312A4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FBF20730DF6048B003312A4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FBF20750DF6070A003312A4 /* Controller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{57, 0}";
+			sepNavVisRange = "{0, 152}";
+		};
+	};
+	6FBF20760DF6070A003312A4 /* Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{241, 0}";
+			sepNavVisRange = "{0, 249}";
+			sepNavWindowFrame = "{{295, 298}, {987, 705}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* CountChars */ = {
+		activeExec = 0;
+		executables = (
+			6FBF206A0DF60487003312A4 /* CountChars */,
+		);
+	};
+}

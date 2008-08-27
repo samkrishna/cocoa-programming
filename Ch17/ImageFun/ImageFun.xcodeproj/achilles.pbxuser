@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FC8D29F0E47E13E00BB7AA5 /* ImageFun */;
+		activeTarget = 8D1107260486CEB800E47090 /* ImageFun */;
+		codeSenseManager = 6FC8D2A80E47E14200BB7AA5 /* Code sense */;
+		executables = (
+			6FC8D29F0E47E13E00BB7AA5 /* ImageFun */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241108204;
+			PBXWorkspaceStateSaveDate = 241108204;
+		};
+		sourceControlManager = 6FC8D2A70E47E14200BB7AA5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FC8D29F0E47E13E00BB7AA5 /* ImageFun */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImageFun;
+		sourceDirectories = (
+		);
+	};
+	6FC8D2A70E47E14200BB7AA5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FC8D2A80E47E14200BB7AA5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FC8D2AC0E47E4BC00BB7AA5 /* StretchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 190}}";
+			sepNavSelRange = "{111, 0}";
+			sepNavVisRange = "{0, 111}";
+		};
+	};
+	6FC8D2AD0E47E4BC00BB7AA5 /* StretchView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1018}}";
+			sepNavSelRange = "{803, 0}";
+			sepNavVisRange = "{0, 674}";
+			sepNavWindowFrame = "{{888, 233}, {987, 705}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* ImageFun */ = {
+		activeExec = 0;
+		executables = (
+			6FC8D29F0E47E13E00BB7AA5 /* ImageFun */,
+		);
+	};
+}

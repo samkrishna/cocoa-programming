@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* RaiseMan */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* RaiseMan */,
+		);
+		codeSenseManager = 6FE1D7AA0E4AF0D900D8CBC6 /* Code sense */;
+		executables = (
+			6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 240979389;
+			PBXWorkspaceStateSaveDate = 240979389;
+		};
+		sourceControlManager = 6FE1D7A90E4AF0D900D8CBC6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 4142}}";
+			sepNavSelRange = "{1907, 43}";
+			sepNavVisRange = "{556, 266}";
+			sepNavWindowFrame = "{{287, 425}, {987, 705}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{379, 0}";
+			sepNavVisRange = "{0, 638}";
+		};
+	};
+	6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RaiseMan;
+		sourceDirectories = (
+		);
+	};
+	6FE1D7A90E4AF0D900D8CBC6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE1D7AA0E4AF0D900D8CBC6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE1D7AD0E4AF19800D8CBC6 /* Person.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 418}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{216, 127}";
+			sepNavWindowFrame = "{{787, 405}, {987, 705}}";
+		};
+	};
+	6FE1D7AE0E4AF19800D8CBC6 /* Person.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 760}}";
+			sepNavSelRange = "{301, 0}";
+			sepNavVisRange = "{70, 492}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* RaiseMan */ = {
+		activeExec = 0;
+		executables = (
+			6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */,
+		);
+	};
+}

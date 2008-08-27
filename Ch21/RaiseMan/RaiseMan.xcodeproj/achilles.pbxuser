@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* RaiseMan */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* RaiseMan */,
+		);
+		codeSenseManager = 6FE1D7AA0E4AF0D900D8CBC6 /* Code sense */;
+		executables = (
+			6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241311754;
+			PBXWorkspaceStateSaveDate = 241311754;
+		};
+		sourceControlManager = 6FE1D7A90E4AF0D900D8CBC6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 5149}}";
+			sepNavSelRange = "{5070, 67}";
+			sepNavVisRange = "{4856, 1073}";
+			sepNavWindowFrame = "{{61, 426}, {987, 705}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 608}}";
+			sepNavSelRange = "{378, 39}";
+			sepNavVisRange = "{0, 727}";
+			sepNavWindowFrame = "{{61, 426}, {987, 705}}";
+		};
+	};
+	6FCE9F050E5DAAF00091D470 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 418}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{140, 178}";
+		};
+	};
+	6FCE9F060E5DAAF00091D470 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1463}}";
+			sepNavSelRange = "{470, 0}";
+			sepNavVisRange = "{500, 874}";
+			sepNavWindowFrame = "{{115, 386}, {987, 705}}";
+		};
+	};
+	6FCE9F190E5DAC2C0091D470 /* PreferenceController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{309, 0}";
+			sepNavVisRange = "{0, 620}";
+			sepNavWindowFrame = "{{84, 405}, {987, 705}}";
+		};
+	};
+	6FCE9F1A0E5DAC2C0091D470 /* PreferenceController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1463}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRange = "{1096, 1086}";
+			sepNavWindowFrame = "{{153, 342}, {987, 705}}";
+		};
+	};
+	6FCEA0820E5DDA0A0091D470 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{178, 0}";
+			sepNavVisRange = "{0, 178}";
+			sepNavWindowFrame = "{{45, 360}, {987, 705}}";
+		};
+	};
+	6FCEA0980E5DDAC10091D470 /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 208}";
+			sepNavWindowFrame = "{{112, 273}, {987, 705}}";
+		};
+	};
+	6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RaiseMan;
+		sourceDirectories = (
+		);
+	};
+	6FE1D7A90E4AF0D900D8CBC6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE1D7AA0E4AF0D900D8CBC6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE1D7AD0E4AF19800D8CBC6 /* Person.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 446}";
+			sepNavWindowFrame = "{{153, 342}, {987, 705}}";
+		};
+	};
+	6FE1D7AE0E4AF19800D8CBC6 /* Person.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1178}}";
+			sepNavSelRange = "{1041, 0}";
+			sepNavVisRange = "{351, 698}";
+			sepNavWindowFrame = "{{153, 342}, {987, 705}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* RaiseMan */ = {
+		activeExec = 0;
+		executables = (
+			6FE1D7A40E4AF0BB00D8CBC6 /* RaiseMan */,
+		);
+	};
+	8D15AC360486D014006FF6A4 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 468}, {987, 705}}";
+		};
+	};
+}

@@ -1,0 +1,121 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE9574A0E64179D006AA592 /* Gliss */;
+		activeTarget = 8D1107260486CEB800E47090 /* Gliss */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Gliss */,
+		);
+		codeSenseManager = 6FE957530E6417A5006AA592 /* Code sense */;
+		executables = (
+			6FE9574A0E64179D006AA592 /* Gliss */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241440669;
+			PBXWorkspaceStateSaveDate = 241440669;
+		};
+		perUserProjectItems = {
+			6FE957690E6422FD006AA592 /* PBXTextBookmark */ = 6FE957690E6422FD006AA592 /* PBXTextBookmark */;
+			6FE9576A0E6422FD006AA592 /* PBXTextBookmark */ = 6FE9576A0E6422FD006AA592 /* PBXTextBookmark */;
+			6FE9576B0E6422FD006AA592 /* PBXTextBookmark */ = 6FE9576B0E6422FD006AA592 /* PBXTextBookmark */;
+			6FE9576C0E6422FD006AA592 /* PBXTextBookmark */ = 6FE9576C0E6422FD006AA592 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6FE957520E6417A5006AA592 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FE9574A0E64179D006AA592 /* Gliss */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Gliss;
+		sourceDirectories = (
+		);
+	};
+	6FE957520E6417A5006AA592 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE957530E6417A5006AA592 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE957590E6417DF006AA592 /* GlissView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	6FE9575A0E6417DF006AA592 /* GlissView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2337}}";
+			sepNavSelRange = "{1719, 0}";
+			sepNavVisRange = "{0, 682}";
+			sepNavWindowFrame = "{{355, 319}, {987, 705}}";
+		};
+	};
+	6FE957690E6422FD006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE957590E6417DF006AA592 /* GlissView.h */;
+		name = "GlissView.h: 18";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	6FE9576A0E6422FD006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE9575A0E6417DF006AA592 /* GlissView.m */;
+		rLen = 0;
+		rLoc = 2147486527;
+		rType = 0;
+	};
+	6FE9576B0E6422FD006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE957590E6417DF006AA592 /* GlissView.h */;
+		name = "GlissView.h: 18";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	6FE9576C0E6422FD006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE9575A0E6417DF006AA592 /* GlissView.m */;
+		name = "GlissView.m: 65";
+		rLen = 0;
+		rLoc = 1719;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* Gliss */ = {
+		activeExec = 0;
+		executables = (
+			6FE9574A0E64179D006AA592 /* Gliss */,
+		);
+	};
+}

@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FCEA1790E5EF26E0091D470 /* OvalFun */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* OvalFun */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* OvalFun */,
+		);
+		breakpoints = (
+			6F6154520E5F34CD00DAD6C1 /* MyDocument.m:45 */,
+			6F6154570E5F34D600DAD6C1 /* MyDocument.m:34 */,
+			6F61545B0E5F351200DAD6C1 /* OvalView.m:32 */,
+		);
+		codeSenseManager = 6FCEA1830E5EF28B0091D470 /* Code sense */;
+		executables = (
+			6FCEA1790E5EF26E0091D470 /* OvalFun */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241146340;
+			PBXWorkspaceStateSaveDate = 241146340;
+		};
+		sourceControlManager = 6FCEA1820E5EF28B0091D470 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1254}}";
+			sepNavSelRange = "{1527, 0}";
+			sepNavVisRange = "{312, 1046}";
+			sepNavWindowFrame = "{{151, 335}, {987, 705}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{139, 259}";
+			sepNavVisRange = "{0, 398}";
+			sepNavWindowFrame = "{{202, 271}, {987, 705}}";
+		};
+	};
+	6F6154520E5F34CD00DAD6C1 /* MyDocument.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-readFromData:ofType:error:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = OvalFun;
+		modificationTime = 241151022.21264;
+		state = 1;
+	};
+	6F6154570E5F34D600DAD6C1 /* MyDocument.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-windowControllerDidLoadNib:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 34;
+		location = OvalFun;
+		modificationTime = 241151022.212647;
+		state = 1;
+	};
+	6F61545B0E5F351200DAD6C1 /* OvalView.m:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6FCEA1930E5EF9CC0091D470 /* OvalView.m */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		location = OvalFun;
+		modificationTime = 241151022.212653;
+		state = 1;
+	};
+	6FCEA1790E5EF26E0091D470 /* OvalFun */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OvalFun;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	6FCEA1820E5EF28B0091D470 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FCEA1830E5EF28B0091D470 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FCEA1920E5EF9CC0091D470 /* OvalView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{254, 49}";
+			sepNavVisRange = "{0, 451}";
+			sepNavWindowFrame = "{{103, 390}, {987, 705}}";
+		};
+	};
+	6FCEA1930E5EF9CC0091D470 /* OvalView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2584}}";
+			sepNavSelRange = "{2962, 264}";
+			sepNavVisRange = "{2637, 876}";
+			sepNavWindowFrame = "{{50, 390}, {987, 705}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* OvalFun */ = {
+		activeExec = 0;
+		executables = (
+			6FCEA1790E5EF26E0091D470 /* OvalFun */,
+		);
+	};
+}

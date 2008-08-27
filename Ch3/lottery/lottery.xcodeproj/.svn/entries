@@ -1,0 +1,65 @@
+8
+
+dir
+16
+http://moonbase.svn.beanstalkapp.com/moonbase-alpha/trunk/BigNerdRanch/Ch3/lottery/lottery.xcodeproj
+http://moonbase.svn.beanstalkapp.com/moonbase-alpha
+
+
+
+2008-05-07T22:47:18.186771Z
+16
+achilles
+
+
+svn:special svn:externals svn:needs-lock
+
+TemplateIcon.icns
+file
+
+
+
+
+2008-05-07T18:57:50.000000Z
+9561f993b01bc966e01c9437d0c443ad
+2008-05-07T22:47:18.186771Z
+16
+achilles
+has-props
+
+achilles.mode2v3
+file
+19
+
+
+
+2008-05-07T23:36:37.000000Z
+4a258310ff6df152bbf15426c1ededce
+2008-05-07T23:49:26.605699Z
+19
+achilles
+
+project.pbxproj
+file
+
+
+
+
+2008-05-07T21:22:44.000000Z
+f140aa1237236b428c797e044f102f03
+2008-05-07T22:47:18.186771Z
+16
+achilles
+
+achilles.pbxuser
+file
+19
+
+
+
+2008-05-07T23:36:37.000000Z
+dae24924deed284065fd9164edea3c81
+2008-05-07T23:49:26.605699Z
+19
+achilles
+

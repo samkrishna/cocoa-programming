@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE9577D0E64234A006AA592 /* ZIPspector */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* ZIPspector */;
+		codeSenseManager = 6FE957860E64234D006AA592 /* Code sense */;
+		executables = (
+			6FE9577D0E64234A006AA592 /* ZIPspector */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241484346;
+			PBXWorkspaceStateSaveDate = 241484346;
+		};
+		perUserProjectItems = {
+			6FE9578D0E643371006AA592 = 6FE9578D0E643371006AA592 /* PBXTextBookmark */;
+			6FE9578F0E643371006AA592 = 6FE9578F0E643371006AA592 /* PBXTextBookmark */;
+			6FE957900E643371006AA592 = 6FE957900E643371006AA592 /* PBXTextBookmark */;
+			6FE957F00E647C14006AA592 = 6FE957F00E647C14006AA592 /* PBXTextBookmark */;
+			6FE958300E64C247006AA592 /* PBXTextBookmark */ = 6FE958300E64C247006AA592 /* PBXTextBookmark */;
+			6FE958390E64C296006AA592 /* PBXTextBookmark */ = 6FE958390E64C296006AA592 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6FE957850E64234D006AA592 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2641}}";
+			sepNavSelRange = "{2169, 0}";
+			sepNavVisRange = "{1560, 1156}";
+			sepNavWindowFrame = "{{399, 241}, {987, 705}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 272}";
+		};
+	};
+	6FE9577D0E64234A006AA592 /* ZIPspector */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZIPspector;
+		sourceDirectories = (
+		);
+	};
+	6FE957850E64234D006AA592 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE957860E64234D006AA592 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE9578D0E643371006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 12";
+		rLen = 0;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	6FE9578F0E643371006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 12";
+		rLen = 0;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	6FE957900E643371006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 38";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 1642;
+	};
+	6FE957F00E647C14006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 102";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 165;
+	};
+	6FE958300E64C247006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 102";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 2845;
+	};
+	6FE958390E64C296006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 64";
+		rLen = 0;
+		rLoc = 2169;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 1560;
+	};
+	8D15AC270486D014006FF6A4 /* ZIPspector */ = {
+		activeExec = 0;
+		executables = (
+			6FE9577D0E64234A006AA592 /* ZIPspector */,
+		);
+	};
+}

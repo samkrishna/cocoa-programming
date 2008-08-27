@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp/main.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp/Info.plist
+END
+RandomApp_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp/RandomApp_Prefix.pch
+END
+Foo.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp/Foo.h
+END
+Foo.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/moonbase-alpha/!svn/ver/12/trunk/BigNerdRanch/Ch2/RandomApp/Foo.m
+END

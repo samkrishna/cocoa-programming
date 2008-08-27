@@ -1,0 +1,89 @@
+8
+
+dir
+12
+http://moonbase.svn.beanstalkapp.com/moonbase-alpha/trunk/BigNerdRanch/Ch2/RandomApp
+http://moonbase.svn.beanstalkapp.com/moonbase-alpha
+
+
+
+2008-05-07T22:29:34.817022Z
+12
+achilles
+
+
+svn:special svn:externals svn:needs-lock
+
+build
+dir
+
+
+
+delete
+
+main.m
+file
+
+
+
+
+2008-05-07T15:03:51.000000Z
+9107ec3fe6973cc97830cf22993c9c9f
+2008-05-07T22:29:34.817022Z
+12
+achilles
+
+Info.plist
+file
+
+
+
+
+2008-05-07T13:25:31.000000Z
+ff421ddf9ef1d5c1fe5f3e687fbe91a6
+2008-05-07T22:29:34.817022Z
+12
+achilles
+
+RandomApp_Prefix.pch
+file
+
+
+
+
+2008-05-07T13:25:31.000000Z
+b5feacb2e52e3190426970907487186f
+2008-05-07T22:29:34.817022Z
+12
+achilles
+
+Foo.h
+file
+
+
+
+
+2008-05-07T15:13:55.000000Z
+7778d9fd0aeddd3d6479dcf8a76d6b41
+2008-05-07T22:29:34.817022Z
+12
+achilles
+
+RandomApp.xcodeproj
+dir
+
+English.lproj
+dir
+
+Foo.m
+file
+
+
+
+
+2008-05-07T15:29:53.000000Z
+b9b182130f0a106ef0e644709047641e
+2008-05-07T22:29:34.817022Z
+12
+achilles
+

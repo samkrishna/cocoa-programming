@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE1D7840E4A90D900D8CBC6 /* KVCFun */;
+		activeTarget = 8D1107260486CEB800E47090 /* KVCFun */;
+		codeSenseManager = 6FE1D78D0E4A90DD00D8CBC6 /* Code sense */;
+		executables = (
+			6FE1D7840E4A90D900D8CBC6 /* KVCFun */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 239767769;
+			PBXWorkspaceStateSaveDate = 239767769;
+		};
+		sourceControlManager = 6FE1D78C0E4A90DD00D8CBC6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FE1D7840E4A90D900D8CBC6 /* KVCFun */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KVCFun;
+		sourceDirectories = (
+		);
+	};
+	6FE1D78C0E4A90DD00D8CBC6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE1D78D0E4A90DD00D8CBC6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE1D78F0E4A912100D8CBC6 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{79, 0}";
+			sepNavVisRange = "{0, 164}";
+			sepNavWindowFrame = "{{891, 218}, {987, 705}}";
+		};
+	};
+	6FE1D7900E4A912100D8CBC6 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 569}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{0, 446}";
+		};
+	};
+	8D1107260486CEB800E47090 /* KVCFun */ = {
+		activeExec = 0;
+		executables = (
+			6FE1D7840E4A90D900D8CBC6 /* KVCFun */,
+		);
+	};
+}

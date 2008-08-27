@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FBE75A10E60AFA000F59F68 /* BigLetterView */;
+		activeTarget = 8D1107260486CEB800E47090 /* BigLetterView */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* BigLetterView */,
+		);
+		codeSenseManager = 6FBE75AA0E60AFA900F59F68 /* Code sense */;
+		executables = (
+			6FBE75A10E60AFA000F59F68 /* BigLetterView */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241217440;
+			PBXWorkspaceStateSaveDate = 241217440;
+		};
+		sourceControlManager = 6FBE75A90E60AFA900F59F68 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FBE75A10E60AFA000F59F68 /* BigLetterView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BigLetterView;
+		sourceDirectories = (
+		);
+	};
+	6FBE75A90E60AFA900F59F68 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FBE75AA0E60AFA900F59F68 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FBE75AC0E60B1E500F59F68 /* BigLetterView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 378}";
+		};
+	};
+	6FBE75AD0E60B1E500F59F68 /* BigLetterView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 3097}}";
+			sepNavSelRange = "{1504, 0}";
+			sepNavVisRange = "{1376, 593}";
+			sepNavWindowFrame = "{{324, 389}, {987, 705}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* BigLetterView */ = {
+		activeExec = 0;
+		executables = (
+			6FBE75A10E60AFA000F59F68 /* BigLetterView */,
+		);
+	};
+}

@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FE956AE0E63A811006AA592 /* Polynomials */;
+		activeTarget = 8D1107260486CEB800E47090 /* Polynomials */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Polynomials */,
+		);
+		codeSenseManager = 6FE956B70E63A814006AA592 /* Code sense */;
+		executables = (
+			6FE956AE0E63A811006AA592 /* Polynomials */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241412113;
+			PBXWorkspaceStateSaveDate = 241412113;
+		};
+		perUserProjectItems = {
+			6FE956C20E63B00F006AA592 /* PBXTextBookmark */ = 6FE956C20E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956C30E63B00F006AA592 /* PBXTextBookmark */ = 6FE956C30E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956C40E63B00F006AA592 /* PBXTextBookmark */ = 6FE956C40E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956CA0E63B00F006AA592 /* PBXTextBookmark */ = 6FE956CA0E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956CB0E63B00F006AA592 /* PBXTextBookmark */ = 6FE956CB0E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956CC0E63B00F006AA592 /* PBXTextBookmark */ = 6FE956CC0E63B00F006AA592 /* PBXTextBookmark */;
+			6FE956D60E641075006AA592 /* PBXTextBookmark */ = 6FE956D60E641075006AA592 /* PBXTextBookmark */;
+			6FE956D70E641075006AA592 /* PBXTextBookmark */ = 6FE956D70E641075006AA592 /* PBXTextBookmark */;
+			6FE956D80E641075006AA592 /* PBXTextBookmark */ = 6FE956D80E641075006AA592 /* PBXTextBookmark */;
+			6FE956D90E641075006AA592 /* PBXTextBookmark */ = 6FE956D90E641075006AA592 /* PBXTextBookmark */;
+			6FE956DA0E641075006AA592 /* PBXTextBookmark */ = 6FE956DA0E641075006AA592 /* PBXTextBookmark */;
+			6FE956DB0E641075006AA592 /* PBXTextBookmark */ = 6FE956DB0E641075006AA592 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6FE956B60E63A814006AA592 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FE956AE0E63A811006AA592 /* Polynomials */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Polynomials;
+		sourceDirectories = (
+		);
+	};
+	6FE956B60E63A814006AA592 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FE956B70E63A814006AA592 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FE956B80E63A857006AA592 /* Polynomial.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	6FE956B90E63A857006AA592 /* Polynomial.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2033}}";
+			sepNavSelRange = "{1253, 0}";
+			sepNavVisRange = "{1975, 632}";
+			sepNavWindowFrame = "{{327, 244}, {987, 705}}";
+		};
+	};
+	6FE956BB0E63AECC006AA592 /* PolynomialView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	6FE956BC0E63AECC006AA592 /* PolynomialView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1387}}";
+			sepNavSelRange = "{868, 0}";
+			sepNavVisRange = "{0, 681}";
+			sepNavWindowFrame = "{{429, 90}, {987, 705}}";
+		};
+	};
+	6FE956C20E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956BB0E63AECC006AA592 /* PolynomialView.h */;
+		name = "PolynomialView.h: 9";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	6FE956C30E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956BC0E63AECC006AA592 /* PolynomialView.m */;
+		rLen = 0;
+		rLoc = 2147484700;
+		rType = 0;
+	};
+	6FE956C40E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956BB0E63AECC006AA592 /* PolynomialView.h */;
+		name = "PolynomialView.h: 9";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	6FE956CA0E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B80E63A857006AA592 /* Polynomial.h */;
+		name = "Polynomial.h: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	6FE956CB0E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B90E63A857006AA592 /* Polynomial.m */;
+		name = "Polynomial.m: 11";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 326;
+	};
+	6FE956CC0E63B00F006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B80E63A857006AA592 /* Polynomial.h */;
+		name = "Polynomial.h: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	6FE956D60E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B80E63A857006AA592 /* Polynomial.h */;
+		name = "Polynomial.h: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	6FE956D70E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B90E63A857006AA592 /* Polynomial.m */;
+		name = "Polynomial.m: 57";
+		rLen = 0;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 449;
+	};
+	6FE956D80E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B90E63A857006AA592 /* Polynomial.m */;
+		name = "Polynomial.m: 57";
+		rLen = 0;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 449;
+	};
+	6FE956D90E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B80E63A857006AA592 /* Polynomial.h */;
+		name = "Polynomial.h: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	6FE956DA0E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956B90E63A857006AA592 /* Polynomial.m */;
+		name = "Polynomial.m: 57";
+		rLen = 0;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 1975;
+	};
+	6FE956DB0E641075006AA592 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE956BC0E63AECC006AA592 /* PolynomialView.m */;
+		name = "PolynomialView.m: 41";
+		rLen = 0;
+		rLoc = 868;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* Polynomials */ = {
+		activeExec = 0;
+		executables = (
+			6FE956AE0E63A811006AA592 /* Polynomials */,
+		);
+	};
+}

@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FC8D30D0E49092400BB7AA5 /* WindowDelegate */;
+		activeTarget = 8D1107260486CEB800E47090 /* WindowDelegate */;
+		codeSenseManager = 6FC8D3170E49092B00BB7AA5 /* Code sense */;
+		executables = (
+			6FC8D30D0E49092400BB7AA5 /* WindowDelegate */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 239799756;
+			PBXWorkspaceStateSaveDate = 239799756;
+		};
+		sourceControlManager = 6FC8D3160E49092B00BB7AA5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FC8D30D0E49092400BB7AA5 /* WindowDelegate */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WindowDelegate;
+		sourceDirectories = (
+		);
+	};
+	6FC8D3160E49092B00BB7AA5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FC8D3170E49092B00BB7AA5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FC8D3180E490ABE00BB7AA5 /* AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{133, 0}";
+			sepNavVisRange = "{0, 166}";
+		};
+	};
+	6FC8D3190E490ABE00BB7AA5 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 608}}";
+			sepNavSelRange = "{630, 2}";
+			sepNavVisRange = "{0, 638}";
+			sepNavWindowFrame = "{{434, 225}, {987, 705}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* WindowDelegate */ = {
+		activeExec = 0;
+		executables = (
+			6FC8D30D0E49092400BB7AA5 /* WindowDelegate */,
+		);
+	};
+}

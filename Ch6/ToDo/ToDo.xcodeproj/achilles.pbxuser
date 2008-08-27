@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FC8D4D70E49B7DE00BB7AA5 /* ToDo */;
+		activeTarget = 8D1107260486CEB800E47090 /* ToDo */;
+		codeSenseManager = 6FC8D4E00E49B7E100BB7AA5 /* Code sense */;
+		executables = (
+			6FC8D4D70E49B7DE00BB7AA5 /* ToDo */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 239799801;
+			PBXWorkspaceStateSaveDate = 239799801;
+		};
+		sourceControlManager = 6FC8D4DF0E49B7E100BB7AA5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FC8D4D70E49B7DE00BB7AA5 /* ToDo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ToDo;
+		sourceDirectories = (
+		);
+	};
+	6FC8D4DF0E49B7E100BB7AA5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FC8D4E00E49B7E100BB7AA5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FC8D4E20E49B8B200BB7AA5 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 199}";
+		};
+	};
+	6FC8D4E30E49B8B200BB7AA5 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 684}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{58, 627}";
+			sepNavWindowFrame = "{{355, 387}, {987, 705}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* ToDo */ = {
+		activeExec = 0;
+		executables = (
+			6FC8D4D70E49B7DE00BB7AA5 /* ToDo */,
+		);
+	};
+}
