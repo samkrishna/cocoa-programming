@@ -4,6 +4,9 @@ I've attempted every challenge except for Challenge 31, the memory leak challeng
 
 At some point, I'll also start adding little prototypes that I create to solve other interesting problems that I run into while developing. Don't count on any of that code to be perfectly commented. I intend to move too fast to do that. I do intend to make the source itself self-documenting (as much as possible, anyway).
 
+NOTE: I added a modified version of the ViewController project by Kathy Shive and Jonathon Damm. You can read about it here:
+http://katidev.com/blog/2008/05/26/nsviewcontroller-the-new-c-in-mvc-pt-3-of-3/. I added some code from CodeSnipler to make the XSSplitViewController to resize the NSSplitView like the Apple single-window apps like iTunes, iPhoto, etc.
+
 To recursively build all projects in debug mode:
 
 $ find . -name "*.xcodeproj" -execdir xcodebuild debug \;
@@ -17,3 +20,5 @@ or, if you want to clean really fast (but the results are mostly silent):
 $ find . -name "*.xcodeproj" -execdir rm -rf ./build \;
 
 If you have any questions, you can always reach me at sam.krishna@gmail.com.
+
+
