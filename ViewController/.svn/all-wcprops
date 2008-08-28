@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/espressosoft/viewController/!svn/ver/50/trunk
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/espressosoft/viewController/!svn/ver/42/trunk/main.m
+END
+XSDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/espressosoft/viewController/!svn/ver/42/trunk/XSDocument.h
+END
+XSOutlineViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSOutlineViewController.h
+END
+XSViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSViewController.h
+END
+XSDocumentWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSDocumentWindowController.m
+END
+XSWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/espressosoft/viewController/!svn/ver/48/trunk/XSWindowController.m
+END
+XSDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/espressosoft/viewController/!svn/ver/47/trunk/XSDocument.m
+END
+XSOutlineViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSOutlineViewController.m
+END
+XSTextViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSTextViewController.h
+END
+XSViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/espressosoft/viewController/!svn/ver/50/trunk/XSViewController.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/espressosoft/viewController/!svn/ver/22/trunk/Info.plist
+END
+View Controllers_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/espressosoft/viewController/!svn/ver/42/trunk/View%20Controllers_Prefix.pch
+END
+XSTextViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSTextViewController.m
+END
+XSSplitViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSSplitViewController.h
+END
+XSSplitViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/espressosoft/viewController/!svn/ver/49/trunk/XSSplitViewController.m
+END
+XSDocumentWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/espressosoft/viewController/!svn/ver/43/trunk/XSDocumentWindowController.h
+END
+XSWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/espressosoft/viewController/!svn/ver/48/trunk/XSWindowController.h
+END

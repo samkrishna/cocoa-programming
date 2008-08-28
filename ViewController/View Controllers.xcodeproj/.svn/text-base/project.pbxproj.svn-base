@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		AB276DB40DB4186400605257 /* XSDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB276DB30DB4186400605257 /* XSDocumentWindowController.m */; };
+		ABB5DD130D99A34B00778069 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DCFA0D99A34B00778069 /* Credits.rtf */; };
+		ABB5DD140D99A34B00778069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DCFC0D99A34B00778069 /* InfoPlist.strings */; };
+		ABB5DD150D99A34B00778069 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DCFE0D99A34B00778069 /* MainMenu.xib */; };
+		ABB5DD160D99A34B00778069 /* SplitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DD000D99A34B00778069 /* SplitView.xib */; };
+		ABB5DD170D99A34B00778069 /* TextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DD020D99A34B00778069 /* TextView.xib */; };
+		ABB5DD180D99A34B00778069 /* XSDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DD040D99A34B00778069 /* XSDocument.xib */; };
+		ABB5DD190D99A34B00778069 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DD060D99A34B00778069 /* Info.plist */; };
+		ABB5DD1A0D99A34B00778069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD070D99A34B00778069 /* main.m */; };
+		ABB5DD1B0D99A34B00778069 /* XSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD0A0D99A34B00778069 /* XSDocument.m */; };
+		ABB5DD1C0D99A34B00778069 /* XSSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD0C0D99A34B00778069 /* XSSplitViewController.m */; };
+		ABB5DD1D0D99A34B00778069 /* XSTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD0E0D99A34B00778069 /* XSTextViewController.m */; };
+		ABB5DD1E0D99A34B00778069 /* XSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD100D99A34B00778069 /* XSViewController.m */; };
+		ABB5DD1F0D99A34B00778069 /* XSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DD120D99A34B00778069 /* XSWindowController.m */; };
+		ABC632820DB3D7FD00BB472E /* XSOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC632810DB3D7FD00BB472E /* XSOutlineViewController.m */; };
+		ABC632E40DB3DA6200BB472E /* SourceList.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC632E30DB3DA6200BB472E /* SourceList.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC370486D014006FF6A4 /* View Controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Controllers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB276DB20DB4186400605257 /* XSDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDocumentWindowController.h; sourceTree = "<group>"; };
+		AB276DB30DB4186400605257 /* XSDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDocumentWindowController.m; sourceTree = "<group>"; };
+		ABB5DCFB0D99A34B00778069 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		ABB5DCFD0D99A34B00778069 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		ABB5DCFF0D99A34B00778069 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		ABB5DD010D99A34B00778069 /* SplitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplitView.xib; sourceTree = "<group>"; };
+		ABB5DD030D99A34B00778069 /* TextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextView.xib; sourceTree = "<group>"; };
+		ABB5DD050D99A34B00778069 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = XSDocument.xib; sourceTree = "<group>"; };
+		ABB5DD060D99A34B00778069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB5DD070D99A34B00778069 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB5DD080D99A34B00778069 /* View Controllers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View Controllers_Prefix.pch"; sourceTree = "<group>"; };
+		ABB5DD090D99A34B00778069 /* XSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDocument.h; sourceTree = "<group>"; };
+		ABB5DD0A0D99A34B00778069 /* XSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDocument.m; sourceTree = "<group>"; };
+		ABB5DD0B0D99A34B00778069 /* XSSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSSplitViewController.h; sourceTree = "<group>"; };
+		ABB5DD0C0D99A34B00778069 /* XSSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSSplitViewController.m; sourceTree = "<group>"; };
+		ABB5DD0D0D99A34B00778069 /* XSTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSTextViewController.h; sourceTree = "<group>"; };
+		ABB5DD0E0D99A34B00778069 /* XSTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSTextViewController.m; sourceTree = "<group>"; };
+		ABB5DD0F0D99A34B00778069 /* XSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSViewController.h; sourceTree = "<group>"; };
+		ABB5DD100D99A34B00778069 /* XSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSViewController.m; sourceTree = "<group>"; };
+		ABB5DD110D99A34B00778069 /* XSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSWindowController.h; sourceTree = "<group>"; };
+		ABB5DD120D99A34B00778069 /* XSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSWindowController.m; sourceTree = "<group>"; };
+		ABC632800DB3D7FD00BB472E /* XSOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSOutlineViewController.h; sourceTree = "<group>"; };
+		ABC632810DB3D7FD00BB472E /* XSOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSOutlineViewController.m; sourceTree = "<group>"; };
+		ABC632E10DB3DA5B00BB472E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SourceList.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* View Controllers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9B77520DB760820056D661 /* XS Controller Superclasses */,
+				2A37F4ABFDCFA73011CA2CEA /* Example */,
+				2A37F4AFFDCFA73011CA2CEA /* Document Architecture */,
+				ABB5DD230D99A38A00778069 /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5DD0B0D99A34B00778069 /* XSSplitViewController.h */,
+				ABB5DD0C0D99A34B00778069 /* XSSplitViewController.m */,
+				ABC632800DB3D7FD00BB472E /* XSOutlineViewController.h */,
+				ABC632810DB3D7FD00BB472E /* XSOutlineViewController.m */,
+				ABB5DD0D0D99A34B00778069 /* XSTextViewController.h */,
+				ABB5DD0E0D99A34B00778069 /* XSTextViewController.m */,
+				ABB5DD090D99A34B00778069 /* XSDocument.h */,
+				ABB5DD0A0D99A34B00778069 /* XSDocument.m */,
+				AB276DB20DB4186400605257 /* XSDocumentWindowController.h */,
+				AB276DB30DB4186400605257 /* XSDocumentWindowController.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Document Architecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Document Architecture";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5DCFA0D99A34B00778069 /* Credits.rtf */,
+				ABB5DD060D99A34B00778069 /* Info.plist */,
+				ABB5DCFC0D99A34B00778069 /* InfoPlist.strings */,
+				AB9B77600DB761B30056D661 /* Example XIB Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9B77520DB760820056D661 /* XS Controller Superclasses */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5DD0F0D99A34B00778069 /* XSViewController.h */,
+				ABB5DD100D99A34B00778069 /* XSViewController.m */,
+				ABB5DD110D99A34B00778069 /* XSWindowController.h */,
+				ABB5DD120D99A34B00778069 /* XSWindowController.m */,
+			);
+			name = "XS Controller Superclasses";
+			sourceTree = "<group>";
+		};
+		AB9B77600DB761B30056D661 /* Example XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5DCFE0D99A34B00778069 /* MainMenu.xib */,
+				ABB5DD000D99A34B00778069 /* SplitView.xib */,
+				ABB5DD020D99A34B00778069 /* TextView.xib */,
+				ABB5DD040D99A34B00778069 /* XSDocument.xib */,
+				ABC632E30DB3DA6200BB472E /* SourceList.xib */,
+			);
+			name = "Example XIB Files";
+			sourceTree = "<group>";
+		};
+		ABB5DD230D99A38A00778069 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5DD070D99A34B00778069 /* main.m */,
+				ABB5DD080D99A34B00778069 /* View Controllers_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* View Controllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "View Controllers" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Controllers";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "View Controllers";
+			productReference = 8D15AC370486D014006FF6A4 /* View Controllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "View Controllers" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* View Controllers */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* View Controllers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB5DD130D99A34B00778069 /* Credits.rtf in Resources */,
+				ABB5DD140D99A34B00778069 /* InfoPlist.strings in Resources */,
+				ABB5DD150D99A34B00778069 /* MainMenu.xib in Resources */,
+				ABB5DD160D99A34B00778069 /* SplitView.xib in Resources */,
+				ABB5DD170D99A34B00778069 /* TextView.xib in Resources */,
+				ABB5DD180D99A34B00778069 /* XSDocument.xib in Resources */,
+				ABB5DD190D99A34B00778069 /* Info.plist in Resources */,
+				ABC632E40DB3DA6200BB472E /* SourceList.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB5DD1A0D99A34B00778069 /* main.m in Sources */,
+				ABB5DD1B0D99A34B00778069 /* XSDocument.m in Sources */,
+				ABB5DD1C0D99A34B00778069 /* XSSplitViewController.m in Sources */,
+				ABB5DD1D0D99A34B00778069 /* XSTextViewController.m in Sources */,
+				ABB5DD1E0D99A34B00778069 /* XSViewController.m in Sources */,
+				ABB5DD1F0D99A34B00778069 /* XSWindowController.m in Sources */,
+				ABC632820DB3D7FD00BB472E /* XSOutlineViewController.m in Sources */,
+				AB276DB40DB4186400605257 /* XSDocumentWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB5DCFA0D99A34B00778069 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DCFB0D99A34B00778069 /* Credits.rtf */,
+			);
+			name = Credits.rtf;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABB5DCFC0D99A34B00778069 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DCFD0D99A34B00778069 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABB5DCFE0D99A34B00778069 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DCFF0D99A34B00778069 /* MainMenu.xib */,
+			);
+			name = MainMenu.xib;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABB5DD000D99A34B00778069 /* SplitView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DD010D99A34B00778069 /* SplitView.xib */,
+			);
+			name = SplitView.xib;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABB5DD020D99A34B00778069 /* TextView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DD030D99A34B00778069 /* TextView.xib */,
+			);
+			name = TextView.xib;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABB5DD040D99A34B00778069 /* XSDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB5DD050D99A34B00778069 /* English */,
+			);
+			name = XSDocument.xib;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		ABC632E30DB3DA6200BB472E /* SourceList.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC632E10DB3DA5B00BB472E /* English */,
+			);
+			name = SourceList.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Controllers_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "View Controllers";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Controllers_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "View Controllers";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "View Controllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "View Controllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
