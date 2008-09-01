@@ -1,8 +1,10 @@
-The "AnguishBuckYacktman" directory contains my Leopard versions of the 2002 Cocoa Programming book by the authors.
+The "AnguishBuckYacktman" directory contains my Leopard versions of the 2003 Cocoa Programming book by the authors. The book is out-of-print, but you can read the book on-line here:
+
+http://www.promac.ru/book/Sams%20-%20Cocoa%20Programming/0672322307_toc.html
 
 The "Hillegass" directory contains my solutions to the challenge and chapter problems for Learning Cocoa, 3rd Edition.
 
-I've attempted every challenge except for Challenge 31, the memory leak challenge.
+I've attempted every challenge in Learning Cocoa except for Challenge 31, the memory leak challenge.
 
 At some point, I'll also start adding little prototypes that I create to solve other interesting problems that I run into while developing. Don't count on any of that code to be perfectly commented. I intend to move too fast to do that. I do intend to make the source itself self-documenting (as much as possible, anyway).
 
