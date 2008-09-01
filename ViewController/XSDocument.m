@@ -40,7 +40,6 @@
 {
     if (![super init])
 		return nil;
-	// self.mainWindowController = nil;
     [self setMainWindowController:nil];
     return self;
 }
@@ -48,7 +47,6 @@
 - (void)dealloc;
 {
     [_mainWindowController release];
-	// [self.mainWindowController release];
 	[super dealloc];
 }
 
@@ -58,7 +56,6 @@
 - (void)makeWindowControllers;
 {
     [self setMainWindowController:[XSDocumentWindowController defaultController]];
-	//self.mainWindowController = [XSDocumentWindowController defaultController];
 	[self addWindowController:self.mainWindowController];
 }
 

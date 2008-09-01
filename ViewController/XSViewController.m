@@ -68,8 +68,8 @@
 {
 	if (![super initWithNibName:name bundle:bundle])
 		return nil;
-	self.windowController = windowController; // non-retained to avoid retain cycles
-	self.children = [NSMutableArray array]; // set up a blank mutable array
+	[self setWindowController:windowController]; // non-retained to avoid retain cycles
+	[self setChildren:[NSMutableArray array]]; // set up a blank mutable array
 	return self;
 }
 
@@ -84,8 +84,8 @@
 
 - (void)dealloc;
 {
-// removed the self.parent = nil and self.windowController = nil as this can mask bugs that may occurr if the user sends a message to either of those
-	[self.children release];
+// removed the _parent = nil and _windowController = nil as this can mask bugs that may occurr if the user sends a message to either of those
+	[_children release];
 	[super dealloc];
 }
 
@@ -93,12 +93,12 @@
 
 - (NSUInteger)countOfChildren;
 {
-	return [self.children count];
+	return [_children count];
 }
 
 - (XSViewController *)objectInChildrenAtIndex:(NSUInteger)index;
 {
-	return [self.children objectAtIndex:index];
+	return [_children objectAtIndex:index];
 }
 
 // ------------------------------------------
@@ -106,32 +106,32 @@
 // ------------------------------------------
 - (void)addChild:(XSViewController *)viewController;
 {
-	[self insertObject:viewController inChildrenAtIndex:[self.children count]];
+	[self insertObject:viewController inChildrenAtIndex:[_children count]];
 }
 
 - (void)removeChild:(XSViewController *)viewController;
 {
-	[self.children removeObject:viewController];
+	[_children removeObject:viewController];
 }
 
 - (void)removeObjectFromChildrenAtIndex:(NSUInteger)index;
 {
-	[self.children removeObjectAtIndex:index];
-	[(XSWindowController *)self.windowController patchResponderChain]; // each time a controller is removed then the repsonder chain needs fixing
+	[_children removeObjectAtIndex:index];
+	[(XSWindowController *)_windowController patchResponderChain]; // each time a controller is removed then the repsonder chain needs fixing
 }
 
 - (void)insertObject:(XSViewController *)viewController inChildrenAtIndex:(NSUInteger)index;
 {
-	[self.children insertObject:viewController atIndex:index];
+	[_children insertObject:viewController atIndex:index];
 	[viewController setParent:self];
-	[self.windowController patchResponderChain];
+	[_windowController patchResponderChain];
 }
 
 - (void)insertObjects:(NSArray *)viewControllers inChildrenAtIndexes:(NSIndexSet *)indexes;
 {
-	[self.children insertObjects:viewControllers atIndexes:indexes];
+	[_children insertObjects:viewControllers atIndexes:indexes];
 	[viewControllers makeObjectsPerformSelector:@selector(setParent:) withObject:self];
-	[self.windowController patchResponderChain]; 
+	[_windowController patchResponderChain]; 
 }
 
 - (void)insertObjects:(NSArray *)viewControllers inChildrenAtIndex:(NSUInteger)index;
@@ -146,7 +146,7 @@
 // ------------------------------------------
 - (XSViewController *)rootController;
 {
-	XSViewController *root = self.parent;
+	XSViewController *root = _parent;
 	if (!root) // we are the top of the tree
 		return self;
 	while (root.parent) // if this is nil then there is no parent, the whole system is based on the idea that the top of the tree has nil parent, not the windowController as its parent.
@@ -160,7 +160,7 @@
 - (NSArray *)descendants;
 {
 	NSMutableArray *array = [NSMutableArray array];
-	for (XSViewController *child in self.children) {
+	for (XSViewController *child in _children) {
 		[array addObject:child];
 		if ([child countOfChildren] > 0)
 			[array addObjectsFromArray:[child descendants]];
@@ -173,7 +173,7 @@
 // --------------------------------------
 - (void)removeObservations
 {
-	[self.children makeObjectsPerformSelector:@selector(removeObservations)];
+	[_children makeObjectsPerformSelector:@selector(removeObservations)];
 }
 
 @end

@@ -1,4 +1,6 @@
-This is my solutions to the challenge problems for Learning Cocoa, 3rd Edition.
+The "AnguishBuckYacktman" directory contains my Leopard versions of the 2002 Cocoa Programming book by the authors.
+
+The "Hillegass" directory contains my solutions to the challenge and chapter problems for Learning Cocoa, 3rd Edition.
 
 I've attempted every challenge except for Challenge 31, the memory leak challenge.
 

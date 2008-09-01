@@ -44,7 +44,7 @@
 {
 	if (![super initWithWindowNibName:nibName])
 		return nil;
-	self.viewControllers = [NSMutableArray array];
+	[self setViewControllers:[NSMutableArray array]];
 	return self;
 }
 
@@ -59,40 +59,40 @@
 
 - (void)dealloc;
 {
-	[self.viewControllers release];
+	[_viewControllers release];
 	[super dealloc];
 }
 
 - (void)windowWillClose:(NSNotification *)notification;
 {
-	[self.viewControllers makeObjectsPerformSelector:@selector(removeObservations)];
+	[_viewControllers makeObjectsPerformSelector:@selector(removeObservations)];
 }
 
 - (NSUInteger)countOfViewControllers;
 {
-	return [self.viewControllers count];
+	return [_viewControllers count];
 }
 
 - (XSViewController *)objectInViewControllersAtIndex:(NSUInteger)index;
 {
-	return [self.viewControllers objectAtIndex:index];
+	return [_viewControllers objectAtIndex:index];
 }
 
 - (void)addViewController:(XSViewController *)viewController;
 {
-	[self.viewControllers insertObject:viewController atIndex:[self.viewControllers count]];
+	[_viewControllers insertObject:viewController atIndex:[_viewControllers count]];
 	[self patchResponderChain];
 }
 
 - (void)insertObject:(XSViewController *)viewController inViewControllersAtIndex:(NSUInteger)index;
 {
-	[self.viewControllers insertObject:viewController atIndex:index];
+	[_viewControllers insertObject:viewController atIndex:index];
 	[self patchResponderChain];
 }
 
 - (void)insertObjects:(NSArray *)viewControllers inViewControllersAtIndexes:(NSIndexSet *)indexes;
 {
-	[self.viewControllers insertObjects:viewControllers atIndexes:indexes];
+	[_viewControllers insertObjects:viewControllers atIndexes:indexes];
 	[self patchResponderChain];
 }
 
@@ -106,13 +106,13 @@
 // ------------------------------------------
 - (void)removeViewController:(XSViewController *)viewController;
 {
-	[self.viewControllers removeObject:viewController];
+	[_viewControllers removeObject:viewController];
 	[self patchResponderChain];
 }
 
 - (void)removeObjectFromViewControllersAtIndex:(NSUInteger)index;
 {
-	[self.viewControllers removeObjectAtIndex:index];
+	[_viewControllers removeObjectAtIndex:index];
 	[self patchResponderChain];
 }
 
@@ -121,10 +121,10 @@
 // ---------------------------------------------------
 - (void)patchResponderChain;
 {
-	if ([self.viewControllers count] == 0) // we're being called by view controllers at the beginning of creating the tree, most likely load time and the root of the tree hasn't been added to our list of controllers.
+	if ([_viewControllers count] == 0) // we're being called by view controllers at the beginning of creating the tree, most likely load time and the root of the tree hasn't been added to our list of controllers.
 		return;
 	NSMutableArray *flatViewControllers = [NSMutableArray array];
-	for (XSViewController *viewController in self.viewControllers) { // flatten the view controllers into an array
+	for (XSViewController *viewController in _viewControllers) { // flatten the view controllers into an array
 		[flatViewControllers addObject:viewController];
 		[flatViewControllers addObjectsFromArray:[viewController descendants]];
 	}

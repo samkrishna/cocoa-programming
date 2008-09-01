@@ -20,6 +20,9 @@
     NSLog(@"initializing view");
     [self prepareAttributes];
     bgColor = [[NSColor blueColor] retain];
+    NSLog(@"blue component = %.2f", [bgColor blueComponent]);
+    NSLog(@"green component = %.2f", [bgColor greenComponent]);
+    NSLog(@"red component = %.2f", [bgColor redComponent]);
     string = @" ";
     isBold = NO;
     isOblique = NO;

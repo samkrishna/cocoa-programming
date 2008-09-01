@@ -43,16 +43,13 @@
 // ------------------------------------
 - (id)initWithNibName:(NSString *)name bundle:(NSBundle *)bundle windowController:(XSWindowController *)windowController;
 {
-    NSLog(@"In -initWithNibName:bundle:windowController:");
-    //NSLog(@"[[self view] class] = %@", NSStringFromClass([self.view class]));
-//    [(NSSplitView *)[self view] setDelegate:self];
 	if (![super initWithNibName:name bundle:bundle windowController:windowController])
 		return nil;
 	XSOutlineViewController *outlineViewController = [[[XSOutlineViewController alloc] initWithNibName:@"SourceList" bundle:nil windowController:windowController] autorelease];
 	XSTextViewController *textViewController = [[[XSTextViewController alloc] initWithNibName:@"TextView" bundle:nil windowController:windowController] autorelease];
 	[self addChild:outlineViewController];
 	[self addChild:textViewController];
-    NSLog(@"Exiting -initWithNibName:bundle:windowController:");
+
 	return self;
 }
 
@@ -62,17 +59,15 @@
 - (void)awakeFromNib;
 {
     NSSplitView *_view = (NSSplitView *)[self view];
-	self.view.subviews = [NSArray arrayWithObjects:[[self.children objectAtIndex:0] view],[[self.children objectAtIndex:1] view],nil];
+    [_view setSubviews:[NSArray arrayWithObjects:
+        [[[self children] objectAtIndex:0] view],
+        [[[self children] objectAtIndex:1] view],
+        nil]];
     [_view setDelegate:self];
-    CGFloat minPos = [_view minPossiblePositionOfDividerAtIndex:0];
-    CGFloat maxPos = [_view maxPossiblePositionOfDividerAtIndex:0];
-    NSLog(@"minPos = %f", minPos);
-    NSLog(@"maxPos = %f", maxPos);
 }
 
 #pragma mark NSSplitView Delegate
 
-// TODO: Add delegate methods
 // The view controller owns the NIB for the split view, so can be set at the delegate of the NSSplitView. The view controller then has the job its name implies.  In the case of the split view it can tell it when to collapse, or what relative sizes the panes should be, etc....
 
 - (void) splitView:(NSSplitView *)sender resizeSubviewsWithOldSize:(NSSize)oldSize {

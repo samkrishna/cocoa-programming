@@ -12,8 +12,8 @@
 			6FCE9EB00E5D94ED0091D470 /* CarLot */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 241024979;
-			PBXWorkspaceStateSaveDate = 241024979;
+			PBXPerProjectTemplateStateSaveDate = 241982842;
+			PBXWorkspaceStateSaveDate = 241982842;
 		};
 		sourceControlManager = 6FCE9EB80E5D94F00091D470 /* Source Control */;
 		userBuildSettings = {
@@ -23,7 +23,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {928, 646}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 544}";
+			sepNavVisRange = "{3, 546}";
 			sepNavWindowFrame = "{{61, 426}, {987, 705}}";
 		};
 	};
@@ -72,17 +72,18 @@
 	};
 	6FCE9EE20E5DA2FF0091D470 /* CarArrayController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
-			sepNavSelRange = "{220, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 589}}";
+			sepNavSelRange = "{143, 0}";
 			sepNavVisRange = "{0, 231}";
+			sepNavWindowFrame = "{{38, 450}, {1088, 702}}";
 		};
 	};
 	6FCE9EE30E5DA2FF0091D470 /* CarArrayController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {928, 592}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 589}}";
 			sepNavSelRange = "{370, 0}";
 			sepNavVisRange = "{0, 377}";
-			sepNavWindowFrame = "{{84, 405}, {987, 705}}";
+			sepNavWindowFrame = "{{15, 471}, {1088, 702}}";
 		};
 	};
 	775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */ = {
@@ -121,8 +122,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {644, 220}}",
-							"{{649, 0}, {338, 220}}",
+							"{{0, 0}, {644, 218}}",
+							"{{649, 0}, {338, 218}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -141,8 +142,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {211, 220}}",
-							"{{216, 0}, {428, 220}}",
+							"{{0, 0}, {211, 218}}",
+							"{{216, 0}, {428, 218}}",
 						);
 					};
 				};
@@ -241,7 +242,7 @@
 				"xdesign model browser state key - shown/hidden" = 1;
 				"xdesign model diagram view visible rect key" = "{{-162, 0}, {972, 352}}";
 			};
-			sepNavWindowFrame = "{{122, 458}, {987, 705}}";
+			sepNavWindowFrame = "{{321, 416}, {987, 705}}";
 		};
 	};
 	8D15AC270486D014006FF6A4 /* CarLot */ = {

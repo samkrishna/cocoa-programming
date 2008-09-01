@@ -46,10 +46,10 @@
 - (void)windowDidLoad;
 {
 	XSSplitViewController *splitViewController = [[[XSSplitViewController alloc] initWithNibName:@"SplitView" bundle:nil windowController:self] autorelease];
-	[splitViewController setRepresentedObject:self.document];
+	[splitViewController setRepresentedObject:[self document]];
 	[self addViewController:splitViewController];
-	[splitViewController.view setFrame:[self.window.contentView frame]];
-	[self.window.contentView addSubview:splitViewController.view];
-	[self.document windowControllerDidLoadNib:self]; // allow the document to do more setup
+	[[splitViewController view] setFrame:[[[self window] contentView] frame]];
+	[[[self window] contentView] addSubview:[splitViewController view]];
+	[[self document] windowControllerDidLoadNib:self]; // allow the document to do more setup
 }
 @end
