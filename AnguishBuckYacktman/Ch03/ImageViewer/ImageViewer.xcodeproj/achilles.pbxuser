@@ -1,0 +1,65 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FC3D18C0E6C46DC002C36BF /* ImageViewer */;
+		activeTarget = 8D1107260486CEB800E47090 /* ImageViewer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ImageViewer */,
+		);
+		codeSenseManager = 6FC3D1960E6C46E3002C36BF /* Code sense */;
+		executables = (
+			6FC3D18C0E6C46DC002C36BF /* ImageViewer */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 241977052;
+			PBXWorkspaceStateSaveDate = 241977052;
+		};
+		sourceControlManager = 6FC3D1950E6C46E3002C36BF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FC3D18C0E6C46DC002C36BF /* ImageViewer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImageViewer;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	6FC3D1950E6C46E3002C36BF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FC3D1960E6C46E3002C36BF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* ImageViewer */ = {
+		activeExec = 0;
+		executables = (
+			6FC3D18C0E6C46DC002C36BF /* ImageViewer */,
+		);
+	};
+}
