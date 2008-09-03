@@ -16,13 +16,8 @@
     if (![super initWithFrame:rect])
         return nil;
     
-    NSLog(@"Firing -initWithFrame");
-    NSLog(@"initializing view");
     [self prepareAttributes];
     bgColor = [[NSColor blueColor] retain];
-    NSLog(@"blue component = %.2f", [bgColor blueComponent]);
-    NSLog(@"green component = %.2f", [bgColor greenComponent]);
-    NSLog(@"red component = %.2f", [bgColor redComponent]);
     string = @" ";
     isBold = NO;
     isOblique = NO;
@@ -78,20 +73,17 @@
 
 - (BOOL)acceptsFirstResponder
 {
-    NSLog(@"Accepting");
     return YES;
 }
 
 - (BOOL)resignFirstResponder
 {
-    NSLog(@"Resigning");
     [self setKeyboardFocusRingNeedsDisplayInRect:[self bounds]];
     return YES;
 }
 
 - (BOOL)becomeFirstResponder
 {
-    NSLog(@"Becoming");
     [self setNeedsDisplay:YES];
     return YES;
 }
@@ -398,7 +390,6 @@
 
 - (NSDragOperation)draggingEntered:(id <NSDraggingInfo>)sender
 {
-    NSLog(@"draggingEntered:");
     if ([sender draggingSource] == self) {
         return NSDragOperationNone;
     }
@@ -410,7 +401,6 @@
 
 - (void)draggingExited:(id <NSDraggingInfo>)sender
 {
-    NSLog(@"draggingExited:");
     highlighted = NO;
     [self setNeedsDisplay:YES];
 }
@@ -432,15 +422,13 @@
 
 - (void)concludeDragOperation:(id <NSDraggingInfo>)sender
 {
-    NSLog(@"concludeDragOperation:");
     highlighted = NO;
     [self setNeedsDisplay:YES];
 }
 
 - (NSDragOperation)draggingUpdated:(id <NSDraggingInfo>)sender
 {
-    NSDragOperation op = [sender draggingSourceOperationMask];
-    NSLog(@"operation mask = %d", op);
+    // NSDragOperation op = [sender draggingSourceOperationMask];
     if ([sender draggingSource] == self) {
         return NSDragOperationNone;
     }

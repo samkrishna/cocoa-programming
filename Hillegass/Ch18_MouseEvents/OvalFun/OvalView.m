@@ -24,8 +24,6 @@
     [[NSColor whiteColor] set];
     [path stroke];
     
-    NSLog(@"In -drawRect:");
-    NSLog(@"Number of objects in [doc ovals]: %d", [[doc ovals] count]);
     for (NSBezierPath *p in [doc ovals]) {
         [p fill];
     }

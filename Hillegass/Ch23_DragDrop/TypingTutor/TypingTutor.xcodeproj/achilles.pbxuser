@@ -12,46 +12,12 @@
 			6FE9526B0E62A725006AA592 /* TypingTutor */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 241838601;
-			PBXWorkspaceStateSaveDate = 241838601;
-		};
-		perUserProjectItems = {
-			6F5CAC9D0E6AD256007E7072 /* PBXBookmark */ = 6F5CAC9D0E6AD256007E7072 /* PBXBookmark */;
-			6F5CACB50E6B3D85007E7072 /* PBXBookmark */ = 6F5CACB50E6B3D85007E7072 /* PBXBookmark */;
-			6F5CACCF0E6B3F22007E7072 /* PBXTextBookmark */ = 6F5CACCF0E6B3F22007E7072 /* PBXTextBookmark */;
-			6F5CACD20E6B3F22007E7072 /* PBXTextBookmark */ = 6F5CACD20E6B3F22007E7072 /* PBXTextBookmark */;
+			PBXPerProjectTemplateStateSaveDate = 242014680;
+			PBXWorkspaceStateSaveDate = 242014680;
 		};
 		sourceControlManager = 6FE952730E62A729006AA592 /* Source Control */;
 		userBuildSettings = {
 		};
-	};
-	6F5CAC9D0E6AD256007E7072 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6FE952780E62A762006AA592 /* BigLetterView.h */;
-	};
-	6F5CACB50E6B3D85007E7072 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6FE952790E62A762006AA592 /* BigLetterView.m */;
-	};
-	6F5CACCF0E6B3F22007E7072 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6FE952790E62A762006AA592 /* BigLetterView.m */;
-		name = "BigLetterView.m: 374";
-		rLen = 0;
-		rLoc = 9271;
-		rType = 0;
-		vrLen = 788;
-		vrLoc = 7821;
-	};
-	6F5CACD20E6B3F22007E7072 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6FE952780E62A762006AA592 /* BigLetterView.h */;
-		name = "BigLetterView.h: 35";
-		rLen = 48;
-		rLoc = 671;
-		rType = 0;
-		vrLen = 625;
-		vrLoc = 145;
 	};
 	6FE9526B0E62A725006AA592 /* TypingTutor */ = {
 		isa = PBXExecutable;
@@ -90,6 +56,14 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	6FE952760E62A75A006AA592 /* FirstLetter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 398}";
+			sepNavWindowFrame = "{{107, 387}, {1088, 702}}";
+		};
+	};
 	6FE952780E62A762006AA592 /* BigLetterView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1029, 722}}";
@@ -100,10 +74,10 @@
 	};
 	6FE952790E62A762006AA592 /* BigLetterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1029, 8816}}";
-			sepNavSelRange = "{9271, 0}";
-			sepNavVisRange = "{7821, 788}";
-			sepNavWindowFrame = "{{413, 142}, {1088, 702}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 8455}}";
+			sepNavSelRange = "{10092, 0}";
+			sepNavVisRange = "{8129, 914}";
+			sepNavWindowFrame = "{{165, 298}, {1088, 702}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* TypingTutor */ = {

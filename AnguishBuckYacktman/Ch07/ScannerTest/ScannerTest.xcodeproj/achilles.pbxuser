@@ -1,0 +1,68 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6FC3D31C0E6EC694002C36BF /* ScannerTest */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* ScannerTest */;
+		codeSenseManager = 6FC3D3290E6EC6A2002C36BF /* Code sense */;
+		executables = (
+			6FC3D31C0E6EC694002C36BF /* ScannerTest */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 242140820;
+			PBXWorkspaceStateSaveDate = 242140820;
+		};
+		sourceControlManager = 6FC3D3280E6EC6A2002C36BF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* ScannerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 798}}";
+			sepNavSelRange = "{884, 0}";
+			sepNavVisRange = "{405, 1012}";
+			sepNavWindowFrame = "{{141, 249}, {1088, 702}}";
+		};
+	};
+	6FC3D31C0E6EC694002C36BF /* ScannerTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ScannerTest;
+		sourceDirectories = (
+		);
+	};
+	6FC3D3280E6EC6A2002C36BF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FC3D3290E6EC6A2002C36BF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DD76F960486AA7600D96B5E /* ScannerTest */ = {
+		activeExec = 0;
+		executables = (
+			6FC3D31C0E6EC694002C36BF /* ScannerTest */,
+		);
+	};
+}
