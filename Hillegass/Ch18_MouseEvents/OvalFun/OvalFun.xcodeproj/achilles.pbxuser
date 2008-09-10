@@ -64,11 +64,8 @@
 			PBXWorkspaceStateSaveDate = 242040640;
 		};
 		perUserProjectItems = {
-			6F5CAC2C0E6AC09C007E7072 = 6F5CAC2C0E6AC09C007E7072 /* PBXTextBookmark */;
-			6F6154EA0E5F7EC700DAD6C1 = 6F6154EA0E5F7EC700DAD6C1 /* PBXTextBookmark */;
-			6F6154EB0E5F7EC700DAD6C1 = 6F6154EB0E5F7EC700DAD6C1 /* PBXTextBookmark */;
-			6FBE75900E60557900F59F68 = 6FBE75900E60557900F59F68 /* PBXTextBookmark */;
-			6FC3D1EA0E6C6BE1002C36BF = 6FC3D1EA0E6C6BE1002C36BF /* PBXTextBookmark */;
+			6FC3D30E0E6D96A3002C36BF /* PBXBookmark */ = 6FC3D30E0E6D96A3002C36BF /* PBXBookmark */;
+			6FC3D3370E6F3C36002C36BF /* PBXTextBookmark */ = 6FC3D3370E6F3C36002C36BF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6F6154810E5F75C900DAD6C1 /* Source Control */;
 		userBuildSettings = {
@@ -89,16 +86,6 @@
 			sepNavVisRange = "{0, 650}";
 			sepNavWindowFrame = "{{75, 341}, {987, 705}}";
 		};
-	};
-	6F5CAC2C0E6AC09C007E7072 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
-		name = "MyDocument.m: 55";
-		rLen = 0;
-		rLoc = 1118;
-		rType = 0;
-		vrLen = 487;
-		vrLoc = 0;
 	};
 	6F6154790E5F75C700DAD6C1 /* OvalFun */ = {
 		isa = PBXExecutable;
@@ -148,51 +135,25 @@
 	};
 	6F6154860E5F765800DAD6C1 /* OvalView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {928, 2223}}";
-			sepNavSelRange = "{532, 0}";
-			sepNavVisRange = "{0, 678}";
-			sepNavWindowFrame = "{{278, 322}, {987, 705}}";
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2280}}";
+			sepNavSelRange = "{314, 6}";
+			sepNavVisRange = "{30, 711}";
+			sepNavWindowFrame = "{{87, 406}, {987, 705}}";
 		};
 	};
-	6F6154EA0E5F7EC700DAD6C1 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
-		name = "MyDocument.m: 13";
-		rLen = 0;
-		rLoc = 259;
-		rType = 0;
-		vrLen = 836;
-		vrLoc = 134;
+	6FC3D30E0E6D96A3002C36BF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6F6154860E5F765800DAD6C1 /* OvalView.m */;
 	};
-	6F6154EB0E5F7EC700DAD6C1 /* PBXTextBookmark */ = {
+	6FC3D3370E6F3C36002C36BF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
-		name = "MyDocument.h: 23";
-		rLen = 0;
-		rLoc = 644;
+		fRef = 6F6154860E5F765800DAD6C1 /* OvalView.m */;
+		name = "OvalView.m: 20";
+		rLen = 6;
+		rLoc = 314;
 		rType = 0;
-		vrLen = 434;
-		vrLoc = 0;
-	};
-	6FBE75900E60557900F59F68 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
-		name = "MyDocument.h: 17";
-		rLen = 0;
-		rLoc = 301;
-		rType = 0;
-		vrLen = 650;
-		vrLoc = 0;
-	};
-	6FC3D1EA0E6C6BE1002C36BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
-		name = "MyDocument.m: 55";
-		rLen = 0;
-		rLoc = 1118;
-		rType = 0;
-		vrLen = 487;
-		vrLoc = 0;
+		vrLen = 711;
+		vrLoc = 30;
 	};
 	8D15AC270486D014006FF6A4 /* OvalFun */ = {
 		activeExec = 0;
