@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	6F5E1D0E0DBCAFE80022FCC6 /* prog11_6 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23060DBFF3D70022FCC6 /* prog11_6 */,
+		);
+	};
+	6F5E1D170DBCAFF50022FCC6 /* prog11_7 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23080DBFF3D70022FCC6 /* prog11_7 */,
+		);
+	};
+	6F5E1D200DBCB0010022FCC6 /* prog11_8 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E230A0DBFF3D70022FCC6 /* prog11_8 */,
+		);
+	};
+	6F5E1D280DBCB00D0022FCC6 /* prog11_9 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E230C0DBFF3D70022FCC6 /* prog11_9 */,
+		);
+	};
+	6F5E1D2F0DBCB01C0022FCC6 /* prog11_10 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E230E0DBFF3D70022FCC6 /* prog11_10 */,
+		);
+	};
+	6F5E1D3E0DBCB0320022FCC6 /* prog11_11 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23100DBFF3D70022FCC6 /* prog11_11 */,
+		);
+	};
+	6F5E1D450DBCB03D0022FCC6 /* prog11_12 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23120DBFF3D70022FCC6 /* prog11_12 */,
+		);
+	};
+	6F5E1D4C0DBCB0480022FCC6 /* prog11_13 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23140DBFF3D70022FCC6 /* prog11_13 */,
+		);
+	};
+	6F5E1D530DBCB0570022FCC6 /* prog11_14 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23160DBFF3D70022FCC6 /* prog11_14 */,
+		);
+	};
+	6F5E1D5A0DBCB0610022FCC6 /* prog11_15 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23180DBFF3D70022FCC6 /* prog11_15 */,
+		);
+	};
+	6F5E1D650DBCB09F0022FCC6 /* prog11_6.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {554, 893}}";
+			sepNavSelRange = "{700, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{207, 195}, {1126, 702}}";
+		};
+	};
+	6F5E1D680DBCB0CB0022FCC6 /* prog11_7.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 931}}";
+			sepNavSelRange = "{612, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{176, 324}, {1126, 702}}";
+		};
+	};
+	6F5E1D6A0DBCB1100022FCC6 /* prog11_8.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 817}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{199, 303}, {1126, 702}}";
+		};
+	};
+	6F5E1D6C0DBCB12E0022FCC6 /* prog11_9.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {687, 950}}";
+			sepNavSelRange = "{648, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{222, 282}, {1126, 702}}";
+		};
+	};
+	6F5E1D6E0DBCB1690022FCC6 /* prog11_10.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1103, 2831}}";
+			sepNavSelRange = "{3543, 0}";
+			sepNavVisRange = "{2582, 1637}";
+			sepNavWindowFrame = "{{203, 23}, {1162, 1128}}";
+		};
+	};
+	6F5E1D700DBCB1890022FCC6 /* prog11_11.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 1539}}";
+			sepNavSelRange = "{1145, 0}";
+			sepNavVisRange = "{686, 590}";
+			sepNavWindowFrame = "{{268, 240}, {1126, 702}}";
+		};
+	};
+	6F5E1D720DBCB1A80022FCC6 /* prog11_12.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 589}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 337}";
+			sepNavWindowFrame = "{{291, 219}, {1126, 702}}";
+		};
+	};
+	6F5E1D750DBCB1B90022FCC6 /* prog11_13.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 893}}";
+			sepNavSelRange = "{458, 0}";
+			sepNavVisRange = "{180, 238}";
+			sepNavWindowFrame = "{{294, 207}, {1126, 702}}";
+		};
+	};
+	6F5E1D780DBCB1F00022FCC6 /* prog11_14.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 931}}";
+			sepNavSelRange = "{694, 0}";
+			sepNavVisRange = "{238, 727}";
+			sepNavWindowFrame = "{{360, 156}, {1126, 702}}";
+		};
+	};
+	6F5E1D7A0DBCB2020022FCC6 /* prog11_15.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 589}}";
+			sepNavSelRange = "{227, 0}";
+			sepNavVisRange = "{0, 228}";
+			sepNavWindowFrame = "{{383, 135}, {1126, 702}}";
+		};
+	};
+	6F5E20F00DBE471C0022FCC6 /* prog11_8.c:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6F5E1D6A0DBCB1100022FCC6 /* prog11_8.c */;
+		functionName = "reverse()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		modificationTime = 230592075.425504;
+		state = 0;
+	};
+	6F5E210B0DBE509B0022FCC6 /* prog11_9.c:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6F5E1D6C0DBCB12E0022FCC6 /* prog11_9.c */;
+		functionName = "removeSpace()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = prog11_9;
+		modificationTime = 230592075.307751;
+		state = 2;
+	};
+	6F5E21260DBE55230022FCC6 /* prog11_9.c:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6F5E1D6C0DBCB12E0022FCC6 /* prog11_9.c */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		location = prog11_9;
+		modificationTime = 230592075.307851;
+		state = 2;
+	};
+	6F5E221A0DBE8AC80022FCC6 /* prog11_13.c:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6F5E1D750DBCB1B90022FCC6 /* prog11_13.c */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 17;
+		location = prog11_13;
+		modificationTime = 230592075.307951;
+		state = 2;
+	};
+	6F5E22FC0DBFF3D70022FCC6 /* prog11_1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_1;
+		sourceDirectories = (
+		);
+	};
+	6F5E22FE0DBFF3D70022FCC6 /* prog11_2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_2;
+		sourceDirectories = (
+		);
+	};
+	6F5E23000DBFF3D70022FCC6 /* prog11_3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_3;
+		sourceDirectories = (
+		);
+	};
+	6F5E23020DBFF3D70022FCC6 /* prog11_4 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_4;
+		sourceDirectories = (
+		);
+	};
+	6F5E23040DBFF3D70022FCC6 /* prog11_5 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_5;
+		sourceDirectories = (
+		);
+	};
+	6F5E23060DBFF3D70022FCC6 /* prog11_6 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_6;
+		sourceDirectories = (
+		);
+	};
+	6F5E23080DBFF3D70022FCC6 /* prog11_7 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_7;
+		sourceDirectories = (
+		);
+	};
+	6F5E230A0DBFF3D70022FCC6 /* prog11_8 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_8;
+		sourceDirectories = (
+		);
+	};
+	6F5E230C0DBFF3D70022FCC6 /* prog11_9 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_9;
+		sourceDirectories = (
+		);
+	};
+	6F5E230E0DBFF3D70022FCC6 /* prog11_10 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_10;
+		sourceDirectories = (
+		);
+	};
+	6F5E23100DBFF3D70022FCC6 /* prog11_11 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_11;
+		sourceDirectories = (
+		);
+	};
+	6F5E23120DBFF3D70022FCC6 /* prog11_12 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_12;
+		sourceDirectories = (
+		);
+	};
+	6F5E23140DBFF3D70022FCC6 /* prog11_13 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_13;
+		sourceDirectories = (
+		);
+	};
+	6F5E23160DBFF3D70022FCC6 /* prog11_14 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_14;
+		sourceDirectories = (
+		);
+	};
+	6F5E23180DBFF3D70022FCC6 /* prog11_15 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog11_15;
+		sourceDirectories = (
+		);
+	};
+	6FAB78A00DBA7A96004FEB83 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6F5E22FC0DBFF3D70022FCC6 /* prog11_1 */;
+		activeTarget = 6F5E1D530DBCB0570022FCC6 /* prog11_14 */;
+		addToTargets = (
+			6F5E1D5A0DBCB0610022FCC6 /* prog11_15 */,
+		);
+		breakpoints = (
+			6F5E20F00DBE471C0022FCC6 /* prog11_8.c:32 */,
+			6F5E210B0DBE509B0022FCC6 /* prog11_9.c:40 */,
+			6F5E21260DBE55230022FCC6 /* prog11_9.c:22 */,
+			6F5E221A0DBE8AC80022FCC6 /* prog11_13.c:17 */,
+		);
+		codeSenseManager = 6FAB78A50DBA7A96004FEB83 /* Code sense */;
+		executables = (
+			6F5E22FC0DBFF3D70022FCC6 /* prog11_1 */,
+			6F5E22FE0DBFF3D70022FCC6 /* prog11_2 */,
+			6F5E23000DBFF3D70022FCC6 /* prog11_3 */,
+			6F5E23020DBFF3D70022FCC6 /* prog11_4 */,
+			6F5E23040DBFF3D70022FCC6 /* prog11_5 */,
+			6F5E23060DBFF3D70022FCC6 /* prog11_6 */,
+			6F5E23080DBFF3D70022FCC6 /* prog11_7 */,
+			6F5E230A0DBFF3D70022FCC6 /* prog11_8 */,
+			6F5E230C0DBFF3D70022FCC6 /* prog11_9 */,
+			6F5E230E0DBFF3D70022FCC6 /* prog11_10 */,
+			6F5E23100DBFF3D70022FCC6 /* prog11_11 */,
+			6F5E23120DBFF3D70022FCC6 /* prog11_12 */,
+			6F5E23140DBFF3D70022FCC6 /* prog11_13 */,
+			6F5E23160DBFF3D70022FCC6 /* prog11_14 */,
+			6F5E23180DBFF3D70022FCC6 /* prog11_15 */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					211,
+					20,
+					111,
+					111,
+					41,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					399,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					397,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					509,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					324,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 230683607;
+			PBXWorkspaceStateSaveDate = 230683607;
+		};
+		sourceControlManager = 6FAB78A40DBA7A96004FEB83 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6FAB78A40DBA7A96004FEB83 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6FAB78A50DBA7A96004FEB83 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6FAB78B50DBA7B6B004FEB83 /* prog11_1 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E22FC0DBFF3D70022FCC6 /* prog11_1 */,
+		);
+	};
+	6FAB78C00DBA7B8B004FEB83 /* prog11_2 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E22FE0DBFF3D70022FCC6 /* prog11_2 */,
+		);
+	};
+	6FAB78C90DBA7B9B004FEB83 /* prog11_3 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23000DBFF3D70022FCC6 /* prog11_3 */,
+		);
+	};
+	6FAB78D20DBA7BA8004FEB83 /* prog11_4 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23020DBFF3D70022FCC6 /* prog11_4 */,
+		);
+	};
+	6FAB78DB0DBA7BB3004FEB83 /* prog11_5 */ = {
+		activeExec = 0;
+		executables = (
+			6F5E23040DBFF3D70022FCC6 /* prog11_5 */,
+		);
+	};
+	6FAB78E40DBA7D70004FEB83 /* prog11_1.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 855}}";
+			sepNavSelRange = "{160, 704}";
+			sepNavVisRange = "{229, 635}";
+			sepNavWindowFrame = "{{415, 131}, {1126, 702}}";
+		};
+	};
+	6FAB78E60DBA7D8D004FEB83 /* prog11_2.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 988}}";
+			sepNavSelRange = "{140, 981}";
+			sepNavVisRange = "{404, 717}";
+			sepNavWindowFrame = "{{403, 94}, {1126, 702}}";
+		};
+	};
+	6FAB78E80DBA7E11004FEB83 /* prog11_3.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 969}}";
+			sepNavSelRange = "{1024, 0}";
+			sepNavVisRange = "{407, 755}";
+			sepNavWindowFrame = "{{424, 147}, {1126, 702}}";
+		};
+	};
+	6FAB78EA0DBA7E23004FEB83 /* prog11_4.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 665}}";
+			sepNavSelRange = "{589, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{392, 104}, {1126, 702}}";
+		};
+	};
+	6FAB78EC0DBA7E63004FEB83 /* prog11_5.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 760}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{140, 559}";
+			sepNavWindowFrame = "{{521, 9}, {1126, 702}}";
+		};
+	};
+}

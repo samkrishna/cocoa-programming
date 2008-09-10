@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F5E1C260DBBCB310022FCC6 /* prog6_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E1C250DBBCB310022FCC6 /* prog6_12.c */; };
+		6FAB78E50DBA7D70004FEB83 /* prog6_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78E40DBA7D70004FEB83 /* prog6_1.c */; };
+		6FAB78E70DBA7D8D004FEB83 /* prog6_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78E60DBA7D8D004FEB83 /* prog6_2.c */; };
+		6FAB78E90DBA7E11004FEB83 /* prog6_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78E80DBA7E11004FEB83 /* prog6_3.c */; };
+		6FAB78EB0DBA7E23004FEB83 /* prog6_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78EA0DBA7E23004FEB83 /* prog6_4.c */; };
+		6FAB78ED0DBA7E63004FEB83 /* prog6_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78EC0DBA7E63004FEB83 /* prog6_5.c */; };
+		6FAB7AC60DBB6897004FEB83 /* prog6_6.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7AC50DBB6897004FEB83 /* prog6_6.c */; };
+		6FAB7AC90DBB68B9004FEB83 /* prog6_7.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7AC80DBB68B9004FEB83 /* prog6_7.c */; };
+		6FAB7ACB0DBB68CC004FEB83 /* prog6_8.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7ACA0DBB68CC004FEB83 /* prog6_8.c */; };
+		6FAB7ACD0DBB68E0004FEB83 /* prog6_9.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7ACC0DBB68E0004FEB83 /* prog6_9.c */; };
+		6FAB7ACF0DBB68F3004FEB83 /* prog6_10.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7ACE0DBB68F3004FEB83 /* prog6_10.c */; };
+		6FAB7AD10DBB6906004FEB83 /* prog6_11.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB7AD00DBB6906004FEB83 /* prog6_11.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F34BBFF0DBB7152004F4C9E /* prog6_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_1; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_1; sourceTree = "<absolute>"; };
+		6F34BC010DBB7152004F4C9E /* prog6_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_2; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_2; sourceTree = "<absolute>"; };
+		6F34BC030DBB7152004F4C9E /* prog6_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_3; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_3; sourceTree = "<absolute>"; };
+		6F34BC050DBB7152004F4C9E /* prog6_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_4; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_4; sourceTree = "<absolute>"; };
+		6F34BC070DBB7152004F4C9E /* prog6_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_5; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_5; sourceTree = "<absolute>"; };
+		6F34BC090DBB7152004F4C9E /* prog6_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_6; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_6; sourceTree = "<absolute>"; };
+		6F34BC0B0DBB7152004F4C9E /* prog6_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_7; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_7; sourceTree = "<absolute>"; };
+		6F34BC0D0DBB7152004F4C9E /* prog6_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_8; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_8; sourceTree = "<absolute>"; };
+		6F34BC0F0DBB7152004F4C9E /* prog6_9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_9; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_9; sourceTree = "<absolute>"; };
+		6F34BC110DBB7152004F4C9E /* prog6_10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_10; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_10; sourceTree = "<absolute>"; };
+		6F34BC130DBB7152004F4C9E /* prog6_11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_11; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_11; sourceTree = "<absolute>"; };
+		6F5E1C200DBBCB1C0022FCC6 /* prog6_12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog6_12; path = /Volumes/aeternum/Projects/C/Chapter6/build/Debug/prog6_12; sourceTree = "<absolute>"; };
+		6F5E1C250DBBCB310022FCC6 /* prog6_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_12.c; sourceTree = "<group>"; };
+		6FAB78E40DBA7D70004FEB83 /* prog6_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_1.c; sourceTree = "<group>"; };
+		6FAB78E60DBA7D8D004FEB83 /* prog6_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_2.c; sourceTree = "<group>"; };
+		6FAB78E80DBA7E11004FEB83 /* prog6_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_3.c; sourceTree = "<group>"; };
+		6FAB78EA0DBA7E23004FEB83 /* prog6_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_4.c; sourceTree = "<group>"; };
+		6FAB78EC0DBA7E63004FEB83 /* prog6_5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_5.c; sourceTree = "<group>"; };
+		6FAB7AC50DBB6897004FEB83 /* prog6_6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_6.c; sourceTree = "<group>"; };
+		6FAB7AC80DBB68B9004FEB83 /* prog6_7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_7.c; sourceTree = "<group>"; };
+		6FAB7ACA0DBB68CC004FEB83 /* prog6_8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_8.c; sourceTree = "<group>"; };
+		6FAB7ACC0DBB68E0004FEB83 /* prog6_9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_9.c; sourceTree = "<group>"; };
+		6FAB7ACE0DBB68F3004FEB83 /* prog6_10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_10.c; sourceTree = "<group>"; };
+		6FAB7AD00DBB6906004FEB83 /* prog6_11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog6_11.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F5E1C1E0DBBCB1C0022FCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78B40DBA7B6B004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78BF0DBA7B8B004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78C80DBA7B9B004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78D10DBA7BA8004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78DA0DBA7BB3004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A8B0DBB682D004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A940DBB683A004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A9D0DBB6845004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AA60DBB6852004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AAF0DBB6869004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AB80DBB6877004FEB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FAB789E0DBA7A96004FEB83 = {
+			isa = PBXGroup;
+			children = (
+				6FAB78E40DBA7D70004FEB83 /* prog6_1.c */,
+				6FAB78E60DBA7D8D004FEB83 /* prog6_2.c */,
+				6FAB78E80DBA7E11004FEB83 /* prog6_3.c */,
+				6FAB78EA0DBA7E23004FEB83 /* prog6_4.c */,
+				6FAB78EC0DBA7E63004FEB83 /* prog6_5.c */,
+				6FAB7AC50DBB6897004FEB83 /* prog6_6.c */,
+				6FAB7AC80DBB68B9004FEB83 /* prog6_7.c */,
+				6FAB7ACA0DBB68CC004FEB83 /* prog6_8.c */,
+				6FAB7ACC0DBB68E0004FEB83 /* prog6_9.c */,
+				6FAB7ACE0DBB68F3004FEB83 /* prog6_10.c */,
+				6FAB7AD00DBB6906004FEB83 /* prog6_11.c */,
+				6F5E1C250DBBCB310022FCC6 /* prog6_12.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F5E1C1F0DBBCB1C0022FCC6 /* prog6_12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5E1C240DBBCB220022FCC6 /* Build configuration list for PBXNativeTarget "prog6_12" */;
+			buildPhases = (
+				6F5E1C1D0DBBCB1C0022FCC6 /* Sources */,
+				6F5E1C1E0DBBCB1C0022FCC6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_12;
+			productName = prog6_12;
+			productReference = 6F5E1C200DBBCB1C0022FCC6 /* prog6_12 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB78B50DBA7B6B004FEB83 /* prog6_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB78BB0DBA7B6B004FEB83 /* Build configuration list for PBXNativeTarget "prog6_1" */;
+			buildPhases = (
+				6FAB78B30DBA7B6B004FEB83 /* Sources */,
+				6FAB78B40DBA7B6B004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_1;
+			productName = prog6_1;
+			productReference = 6F34BBFF0DBB7152004F4C9E /* prog6_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB78C00DBA7B8B004FEB83 /* prog6_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB78E00DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_2" */;
+			buildPhases = (
+				6FAB78BE0DBA7B8B004FEB83 /* Sources */,
+				6FAB78BF0DBA7B8B004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_2;
+			productName = prog6_2;
+			productReference = 6F34BC010DBB7152004F4C9E /* prog6_2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB78C90DBA7B9B004FEB83 /* prog6_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB78E10DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_3" */;
+			buildPhases = (
+				6FAB78C70DBA7B9B004FEB83 /* Sources */,
+				6FAB78C80DBA7B9B004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_3;
+			productName = prog6_3;
+			productReference = 6F34BC030DBB7152004F4C9E /* prog6_3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB78D20DBA7BA8004FEB83 /* prog6_4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB78E20DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_4" */;
+			buildPhases = (
+				6FAB78D00DBA7BA8004FEB83 /* Sources */,
+				6FAB78D10DBA7BA8004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_4;
+			productName = prog6_4;
+			productReference = 6F34BC050DBB7152004F4C9E /* prog6_4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB78DB0DBA7BB3004FEB83 /* prog6_5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB78E30DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_5" */;
+			buildPhases = (
+				6FAB78D90DBA7BB3004FEB83 /* Sources */,
+				6FAB78DA0DBA7BB3004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_5;
+			productName = prog6_5;
+			productReference = 6F34BC070DBB7152004F4C9E /* prog6_5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7A8C0DBB682D004FEB83 /* prog6_6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7ABE0DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_6" */;
+			buildPhases = (
+				6FAB7A8A0DBB682D004FEB83 /* Sources */,
+				6FAB7A8B0DBB682D004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_6;
+			productName = prog6_6;
+			productReference = 6F34BC090DBB7152004F4C9E /* prog6_6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7A950DBB683A004FEB83 /* prog6_7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7ABF0DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_7" */;
+			buildPhases = (
+				6FAB7A930DBB683A004FEB83 /* Sources */,
+				6FAB7A940DBB683A004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_7;
+			productName = prog6_7;
+			productReference = 6F34BC0B0DBB7152004F4C9E /* prog6_7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7A9E0DBB6845004FEB83 /* prog6_8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7AC00DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_8" */;
+			buildPhases = (
+				6FAB7A9C0DBB6845004FEB83 /* Sources */,
+				6FAB7A9D0DBB6845004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_8;
+			productName = prog6_8;
+			productReference = 6F34BC0D0DBB7152004F4C9E /* prog6_8 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7AA70DBB6852004FEB83 /* prog6_9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7AC10DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_9" */;
+			buildPhases = (
+				6FAB7AA50DBB6852004FEB83 /* Sources */,
+				6FAB7AA60DBB6852004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_9;
+			productName = prog6_9;
+			productReference = 6F34BC0F0DBB7152004F4C9E /* prog6_9 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7AB00DBB6869004FEB83 /* prog6_10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7AC20DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_10" */;
+			buildPhases = (
+				6FAB7AAE0DBB6869004FEB83 /* Sources */,
+				6FAB7AAF0DBB6869004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_10;
+			productName = prog6_10;
+			productReference = 6F34BC110DBB7152004F4C9E /* prog6_10 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FAB7AB90DBB6877004FEB83 /* prog6_11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAB7AC30DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_11" */;
+			buildPhases = (
+				6FAB7AB70DBB6877004FEB83 /* Sources */,
+				6FAB7AB80DBB6877004FEB83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog6_11;
+			productName = prog6_11;
+			productReference = 6F34BC130DBB7152004F4C9E /* prog6_11 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FAB78A00DBA7A96004FEB83 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter6" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 6FAB789E0DBA7A96004FEB83;
+			productRefGroup = 6FAB789E0DBA7A96004FEB83;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FAB78B50DBA7B6B004FEB83 /* prog6_1 */,
+				6FAB78C00DBA7B8B004FEB83 /* prog6_2 */,
+				6FAB78C90DBA7B9B004FEB83 /* prog6_3 */,
+				6FAB78D20DBA7BA8004FEB83 /* prog6_4 */,
+				6FAB78DB0DBA7BB3004FEB83 /* prog6_5 */,
+				6FAB7A8C0DBB682D004FEB83 /* prog6_6 */,
+				6FAB7A950DBB683A004FEB83 /* prog6_7 */,
+				6FAB7A9E0DBB6845004FEB83 /* prog6_8 */,
+				6FAB7AA70DBB6852004FEB83 /* prog6_9 */,
+				6FAB7AB00DBB6869004FEB83 /* prog6_10 */,
+				6FAB7AB90DBB6877004FEB83 /* prog6_11 */,
+				6F5E1C1F0DBBCB1C0022FCC6 /* prog6_12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F5E1C1D0DBBCB1C0022FCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5E1C260DBBCB310022FCC6 /* prog6_12.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78B30DBA7B6B004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB78E50DBA7D70004FEB83 /* prog6_1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78BE0DBA7B8B004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB78E70DBA7D8D004FEB83 /* prog6_2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78C70DBA7B9B004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB78E90DBA7E11004FEB83 /* prog6_3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78D00DBA7BA8004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB78EB0DBA7E23004FEB83 /* prog6_4.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB78D90DBA7BB3004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB78ED0DBA7E63004FEB83 /* prog6_5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A8A0DBB682D004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7AC60DBB6897004FEB83 /* prog6_6.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A930DBB683A004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7AC90DBB68B9004FEB83 /* prog6_7.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7A9C0DBB6845004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7ACB0DBB68CC004FEB83 /* prog6_8.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AA50DBB6852004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7ACD0DBB68E0004FEB83 /* prog6_9.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AAE0DBB6869004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7ACF0DBB68F3004FEB83 /* prog6_10.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAB7AB70DBB6877004FEB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7AD10DBB6906004FEB83 /* prog6_11.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F5E1C220DBBCB1D0022FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_12;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6F5E1C230DBBCB1D0022FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_12;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB78A10DBA7A96004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6FAB78A20DBA7A96004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		6FAB78B90DBA7B6B004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_1;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB78BA0DBA7B6B004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB78C30DBA7B8C004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_2;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB78C40DBA7B8C004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB78CC0DBA7B9B004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_3;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB78CD0DBA7B9B004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_3;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB78D50DBA7BA8004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_4;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB78D60DBA7BA8004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_4;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB78DE0DBA7BB3004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_5;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB78DF0DBA7BB3004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_5;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7A8F0DBB682D004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_6;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7A900DBB682D004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_6;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7A980DBB683A004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_7;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7A990DBB683A004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_7;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7AA10DBB6846004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_8;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7AA20DBB6846004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_8;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7AAA0DBB6852004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_9;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7AAB0DBB6852004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_9;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7AB30DBB6869004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_10;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7AB40DBB6869004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_10;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FAB7ABC0DBB6877004FEB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_11;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6FAB7ABD0DBB6877004FEB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = prog6_11;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F5E1C240DBBCB220022FCC6 /* Build configuration list for PBXNativeTarget "prog6_12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5E1C220DBBCB1D0022FCC6 /* Debug */,
+				6F5E1C230DBBCB1D0022FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78A10DBA7A96004FEB83 /* Debug */,
+				6FAB78A20DBA7A96004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78BB0DBA7B6B004FEB83 /* Build configuration list for PBXNativeTarget "prog6_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78B90DBA7B6B004FEB83 /* Debug */,
+				6FAB78BA0DBA7B6B004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78E00DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78C30DBA7B8C004FEB83 /* Debug */,
+				6FAB78C40DBA7B8C004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78E10DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78CC0DBA7B9B004FEB83 /* Debug */,
+				6FAB78CD0DBA7B9B004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78E20DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78D50DBA7BA8004FEB83 /* Debug */,
+				6FAB78D60DBA7BA8004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB78E30DBA7BBA004FEB83 /* Build configuration list for PBXNativeTarget "prog6_5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB78DE0DBA7BB3004FEB83 /* Debug */,
+				6FAB78DF0DBA7BB3004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7ABE0DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7A8F0DBB682D004FEB83 /* Debug */,
+				6FAB7A900DBB682D004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7ABF0DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7A980DBB683A004FEB83 /* Debug */,
+				6FAB7A990DBB683A004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7AC00DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7AA10DBB6846004FEB83 /* Debug */,
+				6FAB7AA20DBB6846004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7AC10DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7AAA0DBB6852004FEB83 /* Debug */,
+				6FAB7AAB0DBB6852004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7AC20DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7AB30DBB6869004FEB83 /* Debug */,
+				6FAB7AB40DBB6869004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAB7AC30DBB6880004FEB83 /* Build configuration list for PBXNativeTarget "prog6_11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAB7ABC0DBB6877004FEB83 /* Debug */,
+				6FAB7ABD0DBB6877004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FAB78A00DBA7A96004FEB83 /* Project object */;
+}
