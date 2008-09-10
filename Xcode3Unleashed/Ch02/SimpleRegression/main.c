@@ -29,8 +29,7 @@ int main (int argc, const char * argv[])
     intercept = (sumY - slope * sumX) / n;
     
     double      correlation;
-    correlation = slope * sqrt((n * sumX2 - sumX * sumX)
-                               / (n * sumY2 - sumY * sumY));
+    correlation = slope * sqrt((n * sumX2 - sumX * sumX) / (n * sumY2 - sumY * sumY));
     printf ("%g\t%g\t%g\n",   slope,   intercept,   correlation);
     return   0;
 }
