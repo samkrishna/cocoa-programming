@@ -216,54 +216,7 @@
 		</dict>
 	</array>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>6FE952210E62232B006AA592</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>BigLetterView.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>6FE952220E62232B006AA592</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>BigLetterView.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>6FCCF4580E78895800EDF2E6</string>
-						<key>history</key>
-						<array>
-							<string>6FE952230E62232B006AA592</string>
-							<string>6FE9523B0E622477006AA592</string>
-						</array>
-						<key>prevStack</key>
-						<array>
-							<string>6FE952250E62232B006AA592</string>
-							<string>6FE952260E62232B006AA592</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {987, 608}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>226 375 987 649 0 0 1920 1178 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -503,8 +456,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6FCCF4560E78895800EDF2E6</string>
-				<string>6FCCF4570E78895800EDF2E6</string>
+				<string>6FCCF5CC0E799B8F00EDF2E6</string>
+				<string>6FCCF5CD0E799B8F00EDF2E6</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -522,7 +475,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>242780477.33372</real>
+	<real>242850645.221948</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -537,8 +490,8 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Volumes/elyon/achilles/Projects/cocoa-programming/Hillegass/Ch22_Categories/BigLetterView/BigLetterView.xcodeproj</string>
 		<string>6FE952210E62232B006AA592</string>
+		<string>/Volumes/elyon/achilles/Projects/cocoa-programming/Hillegass/Ch22_Categories/BigLetterView/BigLetterView.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1570 758 350 420 0 0 1920 1178 </string>
