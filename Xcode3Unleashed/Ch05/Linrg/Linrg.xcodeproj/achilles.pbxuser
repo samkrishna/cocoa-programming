@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6F0582760E7FE61200507D99 /* Linrg */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* Linrg */;
+		codeSenseManager = 6F0582830E7FE61E00507D99 /* Code sense */;
+		executables = (
+			6F0582760E7FE61200507D99 /* Linrg */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 243262994;
+			PBXWorkspaceStateSaveDate = 243262994;
+		};
+		sourceControlManager = 6F0582820E7FE61E00507D99 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1053, 684}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 755}";
+			sepNavWindowFrame = "{{176, 328}, {1112, 698}}";
+		};
+	};
+	6F0582760E7FE61200507D99 /* Linrg */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Linrg;
+		sourceDirectories = (
+		);
+	};
+	6F0582820E7FE61E00507D99 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6F0582830E7FE61E00507D99 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DD76FA90486AB0100D96B5E /* Linrg */ = {
+		activeExec = 0;
+		executables = (
+			6F0582760E7FE61200507D99 /* Linrg */,
+		);
+	};
+}
