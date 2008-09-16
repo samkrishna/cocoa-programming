@@ -17,8 +17,7 @@
 		};
 		perUserProjectItems = {
 			6FCCF6770E7AB81100EDF2E6 /* PBXBookmark */ = 6FCCF6770E7AB81100EDF2E6 /* PBXBookmark */;
-			6FCCF67C0E7AB82300EDF2E6 /* PBXTextBookmark */ = 6FCCF67C0E7AB82300EDF2E6 /* PBXTextBookmark */;
-			6FCCF6910E7ABD0700EDF2E6 /* PBXTextBookmark */ = 6FCCF6910E7ABD0700EDF2E6 /* PBXTextBookmark */;
+			6FCCF6940E7AFBCB00EDF2E6 /* PBXTextBookmark */ = 6FCCF6940E7AFBCB00EDF2E6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6FCCF2940E77BFD100EDF2E6 /* Source Control */;
 		userBuildSettings = {
@@ -92,17 +91,7 @@
 		modificationTime = 242924782.420548;
 		state = 1;
 	};
-	6FCCF67C0E7AB82300EDF2E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 32";
-		rLen = 0;
-		rLoc = 811;
-		rType = 0;
-		vrLen = 846;
-		vrLoc = 81;
-	};
-	6FCCF6910E7ABD0700EDF2E6 /* PBXTextBookmark */ = {
+	6FCCF6940E7AFBCB00EDF2E6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 13";

@@ -1,0 +1,19 @@
+"MYDEFAULT_DOC_PATH" = "~/Untitled";
+"MYCANCEL" = "Cancel";
+"MYSAVE_CHANGES" = "%@ has been edited. Do you want to save changes?";
+"MYDEFAULT_CLOSE_ACTION" = "Close";
+"MYSAVE" = "Save";
+"MYDONT_SAVE" = "Don't Save";
+"MYFILE_SAVE_ERROR" = "Document Save Error";
+"MYFILE_SAVE_ERROR_MSG" = "Unable to save <%@>.";
+"MYFILE_OPEN_ERROR" = "Document Open Error";
+"MYFILE_OPEN_ERROR_MSG" = "Unable to open <%@>.";
+"MYQUT" = "Quit";
+"MYOPEN" = "Open Error";
+"MYOPEN_DOCUMENT" = "Unable to open document.";
+"MYNEW_DOCUMENT_ERROR_MSG" = "Unable to create new document.";
+"MYUNSAVED_DOCS_MSG" = "There are unsaved documents.\nReview them?";
+"MYQUIT_ANYWAY" = "Quit Anyway";
+"MYREVIEW_UNSAVED" = "Review";
+"MYUNTITLED" = "Untitled";
+

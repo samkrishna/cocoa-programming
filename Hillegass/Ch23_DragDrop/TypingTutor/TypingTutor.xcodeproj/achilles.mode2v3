@@ -235,10 +235,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6FCCF66D0E7AB7CB00EDF2E6</string>
+						<string>6FCCF6BD0E7C286B00EDF2E6</string>
 						<key>history</key>
 						<array>
-							<string>6FCCF5D50E799B9F00EDF2E6</string>
+							<string>6FCCF66D0E7AB7CB00EDF2E6</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -303,7 +303,7 @@
 								<dict>
 									<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 									<array>
-										<real>227</real>
+										<real>461</real>
 										<real>20</real>
 										<real>43</real>
 										<real>43</real>
@@ -333,7 +333,7 @@
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 0}, {333, 334}}</string>
+									<string>{{0, 0}, {567, 314}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -343,11 +343,11 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{10, 27}, {350, 352}}</string>
+								<string>{{10, 27}, {584, 332}}</string>
 								<key>GroupTreeTableConfiguration</key>
 								<array>
 									<string>MainColumn</string>
-									<real>227</real>
+									<real>461</real>
 									<string>FileBuiltColumn</string>
 									<real>20</real>
 									<string>ErrorsColumn</string>
@@ -497,8 +497,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6FCCF6690E7AB7CB00EDF2E6</string>
-				<string>6FCCF66A0E7AB7CB00EDF2E6</string>
+				<string>6FCCF6BB0E7C286B00EDF2E6</string>
+				<string>6FCCF6BC0E7C286B00EDF2E6</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -516,7 +516,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>242923467.00203499</real>
+	<real>242956003.938925</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -531,11 +531,8 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D5B069F1CE1000CFCEE</string>
-		<string>1C530D54069F1CE1000CFCEE</string>
-		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>6FCCF66B0E7AB7CB00EDF2E6</string>
 		<string>/Volumes/elyon/achilles/Projects/cocoa-programming/Hillegass/Ch23_DragDrop/TypingTutor/TypingTutor.xcodeproj</string>
+		<string>6FCCF66B0E7AB7CB00EDF2E6</string>
 	</array>
 	<key>WindowString</key>
 	<string>1568 138 350 420 0 0 1920 1178 </string>
