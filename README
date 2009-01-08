@@ -6,6 +6,8 @@ The "Hillegass" directory contains my solutions to the challenge and chapter pro
 
 I've attempted every challenge in Learning Cocoa except for Challenge 31, the memory leak challenge.
 
+I'm also including the Garfinkle+Mahoney 2002 book.
+
 At some point, I'll also start adding little prototypes that I create to solve other interesting problems that I run into while developing. Don't count on any of that code to be perfectly commented. I intend to move too fast to do that. I do intend to make the source itself self-documenting (as much as possible, anyway).
 
 NOTE: I added a modified version of the ViewController project by Kathy Shive and Jonathon Damm. You can read about it here:
