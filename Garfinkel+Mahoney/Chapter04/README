@@ -1,3 +1,0 @@
-To compile Tiny.m, execute this line:
-
-$ cc -Wall -o Tiny Tiny.m -framework Cocoa
