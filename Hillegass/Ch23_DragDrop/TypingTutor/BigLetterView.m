@@ -287,7 +287,6 @@
         
         // Read the string from the pasteboard
         NSString *value = [pb stringForType:NSStringPboardType];
-        
         [self setString:[value BNR_firstLetter]];
         return YES;
     }

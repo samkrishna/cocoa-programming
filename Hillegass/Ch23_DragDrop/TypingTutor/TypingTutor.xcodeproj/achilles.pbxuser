@@ -12,8 +12,8 @@
 			6FE9526B0E62A725006AA592 /* TypingTutor */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 243288136;
-			PBXWorkspaceStateSaveDate = 243288136;
+			PBXPerProjectTemplateStateSaveDate = 252799577;
+			PBXWorkspaceStateSaveDate = 252799577;
 		};
 		sourceControlManager = 6FE952730E62A729006AA592 /* Source Control */;
 		userBuildSettings = {
@@ -56,6 +56,13 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	6FE952750E62A75A006AA592 /* FirstLetter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
 	6FE952760E62A75A006AA592 /* FirstLetter.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1029, 589}}";
@@ -74,9 +81,9 @@
 	};
 	6FE952790E62A762006AA592 /* BigLetterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1029, 7942}}";
-			sepNavSelRange = "{4278, 0}";
-			sepNavVisRange = "{4134, 1051}";
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 8037}}";
+			sepNavSelRange = "{4320, 278}";
+			sepNavVisRange = "{3930, 1082}";
 			sepNavWindowFrame = "{{173, 258}, {1088, 702}}";
 		};
 	};
