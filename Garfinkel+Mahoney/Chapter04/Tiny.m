@@ -21,7 +21,7 @@
     
     //get the size of the app's window and view objects
     float width = self.bounds.size.width; //[self bounds].size.width;
-    float height = self.bounds.size.width; //[self bounds].size.height;
+    float height = self.bounds.size.height; //[self bounds].size.height;
     
     [[NSColor blackColor] set];     // Set drawing color to black
     NSRectFill([self bounds]);      // Fill the view with black
