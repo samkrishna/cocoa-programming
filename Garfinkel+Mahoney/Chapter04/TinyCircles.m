@@ -35,7 +35,7 @@
     [[NSColor whiteColor] set]; // Draw the polygon with white lines
 
     for (x = 0, y = 0; x < width / 2 && y < height / 2; x += 25, y += 25) {
-        NSRect r = NSMakeRect(x, y, width - (2 * x), height - (2 *y));
+        NSRect r = NSMakeRect(x, y, width - (2 * x), height - (2 * y));
         NSBezierPath *_cPath = [NSBezierPath bezierPathWithOvalInRect:r];
         [_cPath stroke];
     }
