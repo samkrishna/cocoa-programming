@@ -23,13 +23,13 @@
     float width = self.bounds.size.width; //[self bounds].size.width;
     float height = self.bounds.size.width; //[self bounds].size.height;
     
-    [[NSColor blackColor] set];     // Set drawing color to white
-    NSRectFill([self bounds]);      // File the view with white
+    [[NSColor blackColor] set];     // Set drawing color to black
+    NSRectFill([self bounds]);      // Fill the view with black
     
     // the following statements trace two polygons with n sides
     // and connect all of the vertices with lines
     
-    [[NSColor whiteColor] set];
+    [[NSColor whiteColor] set]; // Draw the polygon with white lines
     
     for (f = 0; f < 2 * pi; f += 2 * pi/ n) {
         for (g = 0; g < 2 * pi; g+= 2 * pi / n) {
