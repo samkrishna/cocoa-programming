@@ -216,48 +216,7 @@
 		</dict>
 	</array>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>6F77A5F80F1657F900BFB8CE</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>TinyCircles.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>6F77A5F90F1657F900BFB8CE</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>TinyCircles.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>6F77A5FC0F165A7000BFB8CE</string>
-						<key>history</key>
-						<array>
-							<string>6F77A5FA0F1657F900BFB8CE</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1145, 606}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>525 495 1145 647 0 0 1920 1178 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -521,7 +480,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>253123184.42790601</real>
+	<real>253125675.03680399</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -536,11 +495,11 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>6F77A5F80F1657F900BFB8CE</string>
 		<string>1C530D54069F1CE1000CFCEE</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>/Volumes/elyon/achilles/Projects/cocoa-programming/Garfinkel+Mahoney/Chapter04/Chapter04.xcodeproj</string>
 		<string>1C530D5B069F1CE1000CFCEE</string>
-		<string>6F77A5F80F1657F900BFB8CE</string>
+		<string>/Volumes/elyon/achilles/Projects/cocoa-programming/Garfinkel+Mahoney/Chapter04/Chapter04.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1570 758 350 420 0 0 1920 1178 </string>

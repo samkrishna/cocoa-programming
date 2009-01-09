@@ -16,11 +16,6 @@
 			PBXPerProjectTemplateStateSaveDate = 253120643;
 			PBXWorkspaceStateSaveDate = 253120643;
 		};
-		perUserProjectItems = {
-			6F77A5FA0F1657F900BFB8CE /* PBXBookmark */ = 6F77A5FA0F1657F900BFB8CE /* PBXBookmark */;
-			6F77A5FB0F1657F900BFB8CE /* PBXTextBookmark */ = 6F77A5FB0F1657F900BFB8CE /* PBXTextBookmark */;
-			6F77A5FC0F165A7000BFB8CE /* PBXTextBookmark */ = 6F77A5FC0F165A7000BFB8CE /* PBXTextBookmark */;
-		};
 		sourceControlManager = 6F77A5C10F1650BF00BFB8CE /* Source Control */;
 		userBuildSettings = {
 		};
@@ -100,35 +95,11 @@
 	};
 	6F77A5E10F16518500BFB8CE /* TinyCircles.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1086, 1710}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 1748}}";
 			sepNavSelRange = "{1020, 0}";
 			sepNavVisRange = "{241, 1006}";
-			sepNavWindowFrame = "{{227, 287}, {1145, 703}}";
+			sepNavWindowFrame = "{{525, 439}, {1145, 703}}";
 		};
-	};
-	6F77A5FA0F1657F900BFB8CE /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6F77A5E10F16518500BFB8CE /* TinyCircles.m */;
-	};
-	6F77A5FB0F1657F900BFB8CE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6F77A5E10F16518500BFB8CE /* TinyCircles.m */;
-		name = "TinyCircles.m: 5";
-		rLen = 0;
-		rLoc = 60;
-		rType = 0;
-		vrLen = 1005;
-		vrLoc = 241;
-	};
-	6F77A5FC0F165A7000BFB8CE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6F77A5E10F16518500BFB8CE /* TinyCircles.m */;
-		name = "TinyCircles.m: 38";
-		rLen = 0;
-		rLoc = 1020;
-		rType = 0;
-		vrLen = 1006;
-		vrLoc = 241;
 	};
 	8DD76F960486AA7600D96B5E /* Tiny */ = {
 		activeExec = 0;
