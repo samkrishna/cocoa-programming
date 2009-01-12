@@ -16,6 +16,7 @@
     if (![super init])
         return nil;
     
+    
     return self;
 }
 
@@ -27,7 +28,10 @@
 - (IBAction)toggleSplitDisplay:(id)sender
 {
 	NSSize newSize = [detailSplit frame].size;
-	
+
+    NSRect _rect = [[detailSplit window] frame];
+    NSLog(@"_rect = %@", NSStringFromRect(_rect));
+
 	[NSAnimationContext beginGrouping];
 	[[NSAnimationContext currentContext] setDuration:.25];
 	

@@ -24,7 +24,8 @@
     // Drawing code here.
     [[NSColor greenColor] set];
     NSRect _rect = NSMakeRect(rect.origin.x + 25, rect.origin.y - 25, rect.size.width - 50, rect.size.height - 50);
-    [[NSBezierPath bezierPathWithRect:_rect] fill];
+    //[[NSBezierPath bezierPathWithRect:_rect] fill];
+    NSRectFill(_rect);
 }
 
 @end
