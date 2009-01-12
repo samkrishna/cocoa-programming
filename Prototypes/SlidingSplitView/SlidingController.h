@@ -7,14 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+@class SlidingSplitView;
 
 @interface SlidingController : NSObject {
-    IBOutlet NSSplitView *detailSplit;
+    IBOutlet SlidingSplitView *detailSplit;
     IBOutlet NSView *theLowerSubView;
     IBOutlet NSView *theUpperSubView;
+    IBOutlet NSButton *disclosureButton;
 }
 
 - (IBAction)toggleSplitDisplay:(id)sender;
-
+- (IBAction)toggleDisclosureDisplay:(id)sender;
 @end

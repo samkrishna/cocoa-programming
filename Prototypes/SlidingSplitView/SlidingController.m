@@ -7,7 +7,7 @@
 //
 
 #import "SlidingController.h"
-
+#import "SlidingSplitView.h"
 
 @implementation SlidingController
 
@@ -15,7 +15,6 @@
 {
     if (![super init])
         return nil;
-    
     
     return self;
 }
@@ -28,9 +27,7 @@
 - (IBAction)toggleSplitDisplay:(id)sender
 {
 	NSSize newSize = [detailSplit frame].size;
-
-    NSRect _rect = [[detailSplit window] frame];
-    NSLog(@"_rect = %@", NSStringFromRect(_rect));
+    NSLog(@"newSize = %@", NSStringFromSize(newSize));
 
 	[NSAnimationContext beginGrouping];
 	[[NSAnimationContext currentContext] setDuration:.25];
@@ -38,17 +35,58 @@
 	if ([sender selectedSegment] == 1)
     {
 		[[theLowerSubView animator] setFrameSize:newSize];
-		newSize.height = 2;
+		newSize.height = 0;
+        NSLog(@"Shrinking the upper view : newSize = %@", NSStringFromSize(newSize));
+        
+        // This is awesome! Be sure to read the docs for NSAnimatablePropertyContainer Protocol Reference
+        // You can basically animate anything on an NSView or an NSWindow (YAAAY!)
+        // at least, I think you can...
 		[[theUpperSubView animator] setFrameSize:newSize];
 	}
 	else if ([sender selectedSegment] == 0)
     {
 		[[theUpperSubView animator] setFrameSize:newSize];
 		newSize.height = 0;
+        NSLog(@"Shrinking the lower view : newSize = %@", NSStringFromSize(newSize));
 		[[theLowerSubView animator] setFrameSize:newSize];
 	}
 	
 	[NSAnimationContext endGrouping];
 }
+
+- (IBAction)toggleDisclosureDisplay:(id)sender
+{
+	NSSize newSize = [detailSplit frame].size;
+    
+	[NSAnimationContext beginGrouping];
+	[[NSAnimationContext currentContext] setDuration:.25];
+
+    if ([sender state] == NSOnState)
+    {
+        newSize.height = newSize.height / 2;
+		[[theLowerSubView animator] setFrameSize:newSize];
+        NSLog(@"Shrinking the upper view : newSize = %@", NSStringFromSize(newSize));
+        
+        // This is awesome! Be sure to read the docs for NSAnimatablePropertyContainer Protocol Reference
+        // You can basically animate anything on an NSView or an NSWindow (YAAAY!)
+        // at least, I think you can...
+        
+        // Change the divider thickness to 9.0
+        [detailSplit setUseSpecialDivider:NO];
+		[[theUpperSubView animator] setFrameSize:newSize];
+    }
+    else if ([sender state] == NSOffState)
+    {
+		[[theUpperSubView animator] setFrameSize:newSize];
+		newSize.height = 0;
+        
+        // Change the divider thickness to 1.0
+        [detailSplit setUseSpecialDivider:YES];
+		[[theLowerSubView animator] setFrameSize:newSize];
+	}
+
+    [NSAnimationContext endGrouping];
+}
+
 
 @end

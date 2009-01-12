@@ -11,6 +11,7 @@
 		6FAF70710F17CAFF00536A09 /* SlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF70700F17CAFF00536A09 /* SlidingController.m */; };
 		6FAF70A80F17E54200536A09 /* UpperSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF70A70F17E54200536A09 /* UpperSubView.m */; };
 		6FAF70AB0F17E55400536A09 /* LowerSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF70AA0F17E55400536A09 /* LowerSubView.m */; };
+		6FAF723F0F1BC60800536A09 /* SlidingSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF723E0F1BC60800536A09 /* SlidingSplitView.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -31,6 +32,8 @@
 		6FAF70A70F17E54200536A09 /* UpperSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpperSubView.m; sourceTree = "<group>"; };
 		6FAF70A90F17E55400536A09 /* LowerSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowerSubView.h; sourceTree = "<group>"; };
 		6FAF70AA0F17E55400536A09 /* LowerSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowerSubView.m; sourceTree = "<group>"; };
+		6FAF723D0F1BC60800536A09 /* SlidingSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingSplitView.h; sourceTree = "<group>"; };
+		6FAF723E0F1BC60800536A09 /* SlidingSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingSplitView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SlidingSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +59,8 @@
 				6FAF70A70F17E54200536A09 /* UpperSubView.m */,
 				6FAF70A90F17E55400536A09 /* LowerSubView.h */,
 				6FAF70AA0F17E55400536A09 /* LowerSubView.m */,
+				6FAF723D0F1BC60800536A09 /* SlidingSplitView.h */,
+				6FAF723E0F1BC60800536A09 /* SlidingSplitView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				6FAF70710F17CAFF00536A09 /* SlidingController.m in Sources */,
 				6FAF70A80F17E54200536A09 /* UpperSubView.m in Sources */,
 				6FAF70AB0F17E55400536A09 /* LowerSubView.m in Sources */,
+				6FAF723F0F1BC60800536A09 /* SlidingSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
