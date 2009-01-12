@@ -39,7 +39,7 @@
     if (useSpecialDivider == YES)
         return specialDividerHeight;
     else
-        return 9.0f;
+        return [super dividerThickness];
 }
 
 @end

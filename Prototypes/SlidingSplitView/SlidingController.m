@@ -71,7 +71,7 @@
         // You can basically animate anything on an NSView or an NSWindow (YAAAY!)
         // at least, I think you can...
         
-        // Change the divider thickness to 9.0
+        // Change the divider thickness to normal
         [detailSplit setUseSpecialDivider:NO];
 		[[theUpperSubView animator] setFrameSize:newSize];
     }
@@ -80,7 +80,8 @@
 		[[theUpperSubView animator] setFrameSize:newSize];
 		newSize.height = 0;
         
-        // Change the divider thickness to 1.0
+        NSLog(@"Shrinking the lower view : newSize = %@", NSStringFromSize(newSize));
+        NSLog(@"Also changing the divider thickness to disappear it");
         [detailSplit setUseSpecialDivider:YES];
 		[[theLowerSubView animator] setFrameSize:newSize];
 	}
