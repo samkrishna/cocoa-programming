@@ -27,6 +27,10 @@
     [super dealloc];
 }
 
+
+#pragma mark -
+#pragma mark Action methods
+
 - (IBAction)createEmployee:(id)sender
 {
     NSWindow *w = [tableView window];
@@ -69,6 +73,9 @@
                    select:YES];
 }
 
+#pragma mark -
+#pragma mark Accessors - 'employees'
+
 - (void)setEmployees:(NSMutableArray *)a
 {
     if (a == employees)
@@ -86,50 +93,6 @@
     }
 }
 
-- (NSString *)windowNibName
-{
-    // Override returning the nib file name of the document
-    // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-    return @"MyDocument";
-}
-
-- (void)windowControllerDidLoadNib:(NSWindowController *) aController
-{
-    [super windowControllerDidLoadNib:aController];
-    // Add any code here that needs to be executed once the windowController has loaded the document's window.
-}
-
-- (NSData *)dataOfType:(NSString *)typeName
-                 error:(NSError **)outError
-{
-    // End editing
-    [[tableView window] endEditingFor:nil];
-    
-    // Create an NSData object from the employees array
-    return [NSKeyedArchiver archivedDataWithRootObject:employees];
-}
-
-- (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
-{
-    NSLog(@"About to read data of type %@", typeName);
-    NSMutableArray *newArray = nil;
-    @try {
-        newArray = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-    }
-    @catch (NSException *e) {
-        if (outError) {
-            NSDictionary *d = [NSDictionary
-                               dictionaryWithObject:@"The data is corrupted."
-                               forKey:NSLocalizedFailureReasonErrorKey];
-            *outError = [NSError errorWithDomain:NSOSStatusErrorDomain
-                                            code:unimpErr
-                                        userInfo:d];
-        }
-        return NO;
-    }
-    [self setEmployees:newArray];
-    return YES;
-}
 
 - (void)insertObject:(Person *)p inEmployeesAtIndex:(int)index
 {
@@ -210,5 +173,67 @@
                                                    toValue:oldValue];
     [undo setActionName:@"Edit"];
 }
+
+#pragma mark -
+#pragma mark NSDocument methods
+
+- (NSString *)windowNibName
+{
+    // Override returning the nib file name of the document
+    // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
+    return @"MyDocument";
+}
+
+- (void)presentError:(NSError *)error modalForWindow:(NSWindow *)window delegate:(id)delegate didPresentSelector:(SEL)didPresentSelector contextInfo:(void *)contextInfo
+{
+	NSDictionary *ui = [error userInfo];
+	NSError *underlying = [ui objectForKey:NSUnderlyingErrorKey];
+	
+	NSLog(@"error = %@, userInfo = %@, underlying info = %@", error, ui, [underlying userInfo]);
+	[super presentError:error 
+		 modalForWindow:window 
+			   delegate:delegate 
+	 didPresentSelector:didPresentSelector 
+			contextInfo:contextInfo];
+}
+
+- (void)windowControllerDidLoadNib:(NSWindowController *) aController
+{
+    [super windowControllerDidLoadNib:aController];
+    // Add any code here that needs to be executed once the windowController has loaded the document's window.
+}
+
+- (NSData *)dataOfType:(NSString *)typeName
+                 error:(NSError **)outError
+{
+    // End editing
+    [[tableView window] endEditingFor:nil];
+    
+    // Create an NSData object from the employees array
+    return [NSKeyedArchiver archivedDataWithRootObject:employees];
+}
+
+- (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
+{
+    NSLog(@"About to read data of type %@", typeName);
+    NSMutableArray *newArray = nil;
+    @try {
+        newArray = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    }
+    @catch (NSException *e) {
+        if (outError) {
+            NSDictionary *d = [NSDictionary
+                               dictionaryWithObject:@"The data is corrupted."
+                               forKey:NSLocalizedFailureReasonErrorKey];
+            *outError = [NSError errorWithDomain:NSOSStatusErrorDomain
+                                            code:unimpErr
+                                        userInfo:d];
+        }
+        return NO;
+    }
+    [self setEmployees:newArray];
+    return YES;
+}
+
 
 @end

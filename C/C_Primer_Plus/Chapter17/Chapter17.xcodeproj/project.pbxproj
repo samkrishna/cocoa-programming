@@ -25,21 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F5E1CFD0DBCAFD30022FCC6 /* prog17_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_1; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_1; sourceTree = "<absolute>"; };
-		6F5E1CFF0DBCAFD30022FCC6 /* prog17_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_2; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_2; sourceTree = "<absolute>"; };
-		6F5E1D010DBCAFD30022FCC6 /* prog17_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_3; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_3; sourceTree = "<absolute>"; };
-		6F5E1D030DBCAFD30022FCC6 /* prog17_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_4; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_4; sourceTree = "<absolute>"; };
-		6F5E1D050DBCAFD30022FCC6 /* prog17_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_5; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_5; sourceTree = "<absolute>"; };
-		6F5E1D0F0DBCAFE80022FCC6 /* prog17_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_6; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_6; sourceTree = "<absolute>"; };
-		6F5E1D180DBCAFF50022FCC6 /* prog17_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_7; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_7; sourceTree = "<absolute>"; };
-		6F5E1D210DBCB0010022FCC6 /* prog17_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_8; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_8; sourceTree = "<absolute>"; };
-		6F5E1D290DBCB00D0022FCC6 /* prog17_9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_9; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_9; sourceTree = "<absolute>"; };
-		6F5E1D300DBCB01C0022FCC6 /* prog17_10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_10; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_10; sourceTree = "<absolute>"; };
-		6F5E1D3F0DBCB0320022FCC6 /* prog17_11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_11; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_11; sourceTree = "<absolute>"; };
-		6F5E1D460DBCB03D0022FCC6 /* prog17_12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_12; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_12; sourceTree = "<absolute>"; };
-		6F5E1D4D0DBCB0480022FCC6 /* prog17_13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_13; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_13; sourceTree = "<absolute>"; };
-		6F5E1D540DBCB0570022FCC6 /* prog17_14 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_14; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_14; sourceTree = "<absolute>"; };
-		6F5E1D5B0DBCB0610022FCC6 /* prog17_15 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_15; path = /Volumes/aeternum/Projects/C/Chapter11/build/Debug/prog17_15; sourceTree = "<absolute>"; };
 		6F5E1D650DBCB09F0022FCC6 /* prog17_6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_6.c; sourceTree = "<group>"; };
 		6F5E1D680DBCB0CB0022FCC6 /* prog17_7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_7.c; sourceTree = "<group>"; };
 		6F5E1D6A0DBCB1100022FCC6 /* prog17_8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_8.c; sourceTree = "<group>"; };
@@ -55,6 +40,21 @@
 		6FAB78E80DBA7E11004FEB83 /* prog17_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_3.c; sourceTree = "<group>"; };
 		6FAB78EA0DBA7E23004FEB83 /* prog17_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_4.c; sourceTree = "<group>"; };
 		6FAB78EC0DBA7E63004FEB83 /* prog17_5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog17_5.c; sourceTree = "<group>"; };
+		6FB0BA740F2BBDBF009D8B0D /* prog17_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_1; path = build/Debug/prog17_1; sourceTree = "<group>"; };
+		6FB0BA760F2BBDBF009D8B0D /* prog17_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_2; path = build/Debug/prog17_2; sourceTree = "<group>"; };
+		6FB0BA780F2BBDBF009D8B0D /* prog17_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_3; path = build/Debug/prog17_3; sourceTree = "<group>"; };
+		6FB0BA7A0F2BBDBF009D8B0D /* prog17_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_4; path = build/Debug/prog17_4; sourceTree = "<group>"; };
+		6FB0BA7C0F2BBDBF009D8B0D /* prog17_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_5; path = build/Debug/prog17_5; sourceTree = "<group>"; };
+		6FB0BA7E0F2BBDBF009D8B0D /* prog17_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_6; path = build/Debug/prog17_6; sourceTree = "<group>"; };
+		6FB0BA800F2BBDBF009D8B0D /* prog17_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_7; path = build/Debug/prog17_7; sourceTree = "<group>"; };
+		6FB0BA820F2BBDBF009D8B0D /* prog17_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_8; path = build/Debug/prog17_8; sourceTree = "<group>"; };
+		6FB0BA840F2BBDBF009D8B0D /* prog17_9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_9; path = build/Debug/prog17_9; sourceTree = "<group>"; };
+		6FB0BA860F2BBDBF009D8B0D /* prog17_10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_10; path = build/Debug/prog17_10; sourceTree = "<group>"; };
+		6FB0BA880F2BBDBF009D8B0D /* prog17_11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_11; path = build/Debug/prog17_11; sourceTree = "<group>"; };
+		6FB0BA8A0F2BBDBF009D8B0D /* prog17_12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_12; path = build/Debug/prog17_12; sourceTree = "<group>"; };
+		6FB0BA8C0F2BBDBF009D8B0D /* prog17_13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_13; path = build/Debug/prog17_13; sourceTree = "<group>"; };
+		6FB0BA8E0F2BBDBF009D8B0D /* prog17_14 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_14; path = build/Debug/prog17_14; sourceTree = "<group>"; };
+		6FB0BA900F2BBDBF009D8B0D /* prog17_15 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog17_15; path = build/Debug/prog17_15; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +184,21 @@
 				6F5E1D750DBCB1B90022FCC6 /* prog17_13.c */,
 				6F5E1D780DBCB1F00022FCC6 /* prog17_14.c */,
 				6F5E1D7A0DBCB2020022FCC6 /* prog17_15.c */,
+				6FB0BA740F2BBDBF009D8B0D /* prog17_1 */,
+				6FB0BA760F2BBDBF009D8B0D /* prog17_2 */,
+				6FB0BA780F2BBDBF009D8B0D /* prog17_3 */,
+				6FB0BA7A0F2BBDBF009D8B0D /* prog17_4 */,
+				6FB0BA7C0F2BBDBF009D8B0D /* prog17_5 */,
+				6FB0BA7E0F2BBDBF009D8B0D /* prog17_6 */,
+				6FB0BA800F2BBDBF009D8B0D /* prog17_7 */,
+				6FB0BA820F2BBDBF009D8B0D /* prog17_8 */,
+				6FB0BA840F2BBDBF009D8B0D /* prog17_9 */,
+				6FB0BA860F2BBDBF009D8B0D /* prog17_10 */,
+				6FB0BA880F2BBDBF009D8B0D /* prog17_11 */,
+				6FB0BA8A0F2BBDBF009D8B0D /* prog17_12 */,
+				6FB0BA8C0F2BBDBF009D8B0D /* prog17_13 */,
+				6FB0BA8E0F2BBDBF009D8B0D /* prog17_14 */,
+				6FB0BA900F2BBDBF009D8B0D /* prog17_15 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,7 +218,7 @@
 			);
 			name = prog17_6;
 			productName = prog17_6;
-			productReference = 6F5E1D0F0DBCAFE80022FCC6 /* prog17_6 */;
+			productReference = 6FB0BA7E0F2BBDBF009D8B0D /* prog17_6 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D170DBCAFF50022FCC6 /* prog17_7 */ = {
@@ -219,7 +234,7 @@
 			);
 			name = prog17_7;
 			productName = prog17_7;
-			productReference = 6F5E1D180DBCAFF50022FCC6 /* prog17_7 */;
+			productReference = 6FB0BA800F2BBDBF009D8B0D /* prog17_7 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D200DBCB0010022FCC6 /* prog17_8 */ = {
@@ -235,7 +250,7 @@
 			);
 			name = prog17_8;
 			productName = prog17_8;
-			productReference = 6F5E1D210DBCB0010022FCC6 /* prog17_8 */;
+			productReference = 6FB0BA820F2BBDBF009D8B0D /* prog17_8 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D280DBCB00D0022FCC6 /* prog17_9 */ = {
@@ -251,7 +266,7 @@
 			);
 			name = prog17_9;
 			productName = prog17_9;
-			productReference = 6F5E1D290DBCB00D0022FCC6 /* prog17_9 */;
+			productReference = 6FB0BA840F2BBDBF009D8B0D /* prog17_9 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D2F0DBCB01C0022FCC6 /* prog17_10 */ = {
@@ -267,7 +282,7 @@
 			);
 			name = prog17_10;
 			productName = prog17_10;
-			productReference = 6F5E1D300DBCB01C0022FCC6 /* prog17_10 */;
+			productReference = 6FB0BA860F2BBDBF009D8B0D /* prog17_10 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D3E0DBCB0320022FCC6 /* prog17_11 */ = {
@@ -283,7 +298,7 @@
 			);
 			name = prog17_11;
 			productName = prog17_11;
-			productReference = 6F5E1D3F0DBCB0320022FCC6 /* prog17_11 */;
+			productReference = 6FB0BA880F2BBDBF009D8B0D /* prog17_11 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D450DBCB03D0022FCC6 /* prog17_12 */ = {
@@ -299,7 +314,7 @@
 			);
 			name = prog17_12;
 			productName = prog17_12;
-			productReference = 6F5E1D460DBCB03D0022FCC6 /* prog17_12 */;
+			productReference = 6FB0BA8A0F2BBDBF009D8B0D /* prog17_12 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D4C0DBCB0480022FCC6 /* prog17_13 */ = {
@@ -315,7 +330,7 @@
 			);
 			name = prog17_13;
 			productName = prog17_13;
-			productReference = 6F5E1D4D0DBCB0480022FCC6 /* prog17_13 */;
+			productReference = 6FB0BA8C0F2BBDBF009D8B0D /* prog17_13 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D530DBCB0570022FCC6 /* prog17_14 */ = {
@@ -331,7 +346,7 @@
 			);
 			name = prog17_14;
 			productName = prog17_14;
-			productReference = 6F5E1D540DBCB0570022FCC6 /* prog17_14 */;
+			productReference = 6FB0BA8E0F2BBDBF009D8B0D /* prog17_14 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6F5E1D5A0DBCB0610022FCC6 /* prog17_15 */ = {
@@ -347,7 +362,7 @@
 			);
 			name = prog17_15;
 			productName = prog17_15;
-			productReference = 6F5E1D5B0DBCB0610022FCC6 /* prog17_15 */;
+			productReference = 6FB0BA900F2BBDBF009D8B0D /* prog17_15 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB78B50DBA7B6B004FEB83 /* prog17_1 */ = {
@@ -363,7 +378,7 @@
 			);
 			name = prog17_1;
 			productName = prog17_1;
-			productReference = 6F5E1CFD0DBCAFD30022FCC6 /* prog17_1 */;
+			productReference = 6FB0BA740F2BBDBF009D8B0D /* prog17_1 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB78C00DBA7B8B004FEB83 /* prog17_2 */ = {
@@ -379,7 +394,7 @@
 			);
 			name = prog17_2;
 			productName = prog17_2;
-			productReference = 6F5E1CFF0DBCAFD30022FCC6 /* prog17_2 */;
+			productReference = 6FB0BA760F2BBDBF009D8B0D /* prog17_2 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB78C90DBA7B9B004FEB83 /* prog17_3 */ = {
@@ -395,7 +410,7 @@
 			);
 			name = prog17_3;
 			productName = prog17_3;
-			productReference = 6F5E1D010DBCAFD30022FCC6 /* prog17_3 */;
+			productReference = 6FB0BA780F2BBDBF009D8B0D /* prog17_3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB78D20DBA7BA8004FEB83 /* prog17_4 */ = {
@@ -411,7 +426,7 @@
 			);
 			name = prog17_4;
 			productName = prog17_4;
-			productReference = 6F5E1D030DBCAFD30022FCC6 /* prog17_4 */;
+			productReference = 6FB0BA7A0F2BBDBF009D8B0D /* prog17_4 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB78DB0DBA7BB3004FEB83 /* prog17_5 */ = {
@@ -427,7 +442,7 @@
 			);
 			name = prog17_5;
 			productName = prog17_5;
-			productReference = 6F5E1D050DBCAFD30022FCC6 /* prog17_5 */;
+			productReference = 6FB0BA7C0F2BBDBF009D8B0D /* prog17_5 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -435,7 +450,7 @@
 /* Begin PBXProject section */
 		6FAB78A00DBA7A96004FEB83 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter11" */;
+			buildConfigurationList = 6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter17" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 0;
 			mainGroup = 6FAB789E0DBA7A96004FEB83;
@@ -1128,7 +1143,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter11" */ = {
+		6FAB78A30DBA7A96004FEB83 /* Build configuration list for PBXProject "Chapter17" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FAB78A10DBA7A96004FEB83 /* Debug */,

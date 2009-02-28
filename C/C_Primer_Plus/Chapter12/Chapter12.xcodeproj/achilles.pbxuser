@@ -375,7 +375,6 @@
 		);
 	};
 	6FAB78A00DBA7A96004FEB83 /* Project object */ = {
-		activeArchitecture = i386;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 6F5E234C0DC01ADD0022FCC6 /* prog12_1 */;
 		activeTarget = 6FAB78B50DBA7B6B004FEB83 /* prog12_1 */;
@@ -467,8 +466,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 230694024;
-			PBXWorkspaceStateSaveDate = 230694024;
+			PBXPerProjectTemplateStateSaveDate = 254524749;
+			PBXWorkspaceStateSaveDate = 254524749;
 		};
 		sourceControlManager = 6FAB78A40DBA7A96004FEB83 /* Source Control */;
 		userBuildSettings = {
@@ -517,9 +516,9 @@
 	};
 	6FAB78E40DBA7D70004FEB83 /* prog12_1.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1067, 855}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 874}}";
 			sepNavSelRange = "{504, 0}";
-			sepNavVisRange = "{140, 719}";
+			sepNavVisRange = "{0, 621}";
 			sepNavWindowFrame = "{{401, 304}, {1126, 702}}";
 		};
 	};
