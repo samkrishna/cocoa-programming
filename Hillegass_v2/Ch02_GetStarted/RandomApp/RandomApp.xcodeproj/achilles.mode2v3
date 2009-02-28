@@ -235,11 +235,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6FB8EAE40F598C010065DC0B</string>
+						<string>6FB8EAED0F5999120065DC0B</string>
 						<key>history</key>
 						<array>
-							<string>6FB8EAC90F598B870065DC0B</string>
-							<string>6FB8EAC40F598B7A0065DC0B</string>
+							<string>6FB8EAE60F5998E40065DC0B</string>
+							<string>6FB8EAE70F5998E40065DC0B</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -257,6 +257,8 @@
 							<string>6FB8EAD50F598B870065DC0B</string>
 							<string>6FB8EAD60F598B870065DC0B</string>
 							<string>6FB8EAD70F598B870065DC0B</string>
+							<string>6FB8EAE80F5998E40065DC0B</string>
+							<string>6FB8EAE90F5998E40065DC0B</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -534,7 +536,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>257526785.85019499</real>
+	<real>257530130.53144401</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>

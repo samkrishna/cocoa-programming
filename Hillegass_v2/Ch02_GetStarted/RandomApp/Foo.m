@@ -17,6 +17,7 @@
 {
     NSLog(@"Firing -awakeFromNib");
     [sideField setIntValue:sideNumber];
+    [resultField setStringValue:[NSString stringWithFormat:@"Launch time: %@", [[NSDate date] description]]];
 }
 
 - (IBAction)generate:(id)sender
