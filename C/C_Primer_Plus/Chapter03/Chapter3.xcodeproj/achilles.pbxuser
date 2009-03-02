@@ -1,21 +1,23 @@
 // !$*UTF8*$!
 {
 	6FAB77180DB9B67D004FEB83 /* Project object */ = {
-		activeArchitecture = i386;
-		activeBuildConfigurationName = Debug;
-		activeExecutable = 6FAB785C0DBA5A16004FEB83 /* prog3_6 */;
-		activeTarget = 6FAB775D0DB9B6C0004FEB83 /* prog3_6 */;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 6FFD95EB0F5C2A8F0068C9D1 /* print1 */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 6FFD95E90F5C2A8F0068C9D1 /* print1 */;
 		addToTargets = (
-			6FAB775D0DB9B6C0004FEB83 /* prog3_6 */,
+			6FFD95E90F5C2A8F0068C9D1 /* print1 */,
 		);
 		codeSenseManager = 6FAB771D0DB9B67D004FEB83 /* Code sense */;
 		executables = (
-			6FAB78520DBA5A16004FEB83 /* prog3_1 */,
-			6FAB78540DBA5A16004FEB83 /* prog3_2 */,
-			6FAB78560DBA5A16004FEB83 /* prog3_3 */,
-			6FAB78580DBA5A16004FEB83 /* prog3_4 */,
-			6FAB785A0DBA5A16004FEB83 /* prog3_5 */,
-			6FAB785C0DBA5A16004FEB83 /* prog3_6 */,
+			6FFD95EB0F5C2A8F0068C9D1 /* print1 */,
+			6FFD95FD0F5C2BB50068C9D1 /* prog3_1 */,
+			6FFD95FF0F5C2BB50068C9D1 /* prog3_2 */,
+			6FFD96010F5C2BB50068C9D1 /* prog3_3 */,
+			6FFD96030F5C2BB50068C9D1 /* prog3_4 */,
+			6FFD96050F5C2BB50068C9D1 /* prog3_5 */,
+			6FFD96070F5C2BB50068C9D1 /* prog3_6 */,
+			6FFD96090F5C2BB50068C9D1 /* goldyou */,
 		);
 		ignoreBreakpointsInProjectsDict = {
 		};
@@ -78,14 +80,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 230316566;
-			PBXWorkspaceStateSaveDate = 230316566;
+			PBXPerProjectTemplateStateSaveDate = 257698027;
+			PBXWorkspaceStateSaveDate = 257698027;
 		};
 		perUserProjectItems = {
-			6FAB788F0DBA711B004FEB83 /* PBXTextBookmark */ = 6FAB788F0DBA711B004FEB83 /* PBXTextBookmark */;
-			6FAB78990DBA7A80004FEB83 /* PBXTextBookmark */ = 6FAB78990DBA7A80004FEB83 /* PBXTextBookmark */;
-			6FAB789C0DBA7A80004FEB83 /* PBXTextBookmark */ = 6FAB789C0DBA7A80004FEB83 /* PBXTextBookmark */;
-			6FAB789D0DBA7A80004FEB83 /* PBXTextBookmark */ = 6FAB789D0DBA7A80004FEB83 /* PBXTextBookmark */;
+			6FAB788F0DBA711B004FEB83 = 6FAB788F0DBA711B004FEB83 /* PBXTextBookmark */;
+			6FAB78990DBA7A80004FEB83 = 6FAB78990DBA7A80004FEB83 /* PBXTextBookmark */;
+			6FAB789C0DBA7A80004FEB83 = 6FAB789C0DBA7A80004FEB83 /* PBXTextBookmark */;
+			6FAB789D0DBA7A80004FEB83 = 6FAB789D0DBA7A80004FEB83 /* PBXTextBookmark */;
+			6FFD95E10F5C2A110068C9D1 /* PBXTextBookmark */ = 6FFD95E10F5C2A110068C9D1 /* PBXTextBookmark */;
+			6FFD95E20F5C2A110068C9D1 /* PBXTextBookmark */ = 6FFD95E20F5C2A110068C9D1 /* PBXTextBookmark */;
+			6FFD960C0F5C2BBA0068C9D1 /* PBXTextBookmark */ = 6FFD960C0F5C2BBA0068C9D1 /* PBXTextBookmark */;
+			6FFD960D0F5C2BBA0068C9D1 /* PBXTextBookmark */ = 6FFD960D0F5C2BBA0068C9D1 /* PBXTextBookmark */;
+			6FFD960E0F5C2BBA0068C9D1 /* PBXTextBookmark */ = 6FFD960E0F5C2BBA0068C9D1 /* PBXTextBookmark */;
+			6FFD96100F5C2BCF0068C9D1 /* PBXTextBookmark */ = 6FFD96100F5C2BCF0068C9D1 /* PBXTextBookmark */;
+			6FFD96110F5C2BCF0068C9D1 /* PBXTextBookmark */ = 6FFD96110F5C2BCF0068C9D1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6FAB771C0DB9B67D004FEB83 /* Source Control */;
 		userBuildSettings = {
@@ -105,183 +114,37 @@
 	6FAB77250DB9B688004FEB83 /* prog3_1 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB78520DBA5A16004FEB83 /* prog3_1 */,
+			6FFD95FD0F5C2BB50068C9D1 /* prog3_1 */,
 		);
 	};
 	6FAB77300DB9B697004FEB83 /* prog3_2 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB78540DBA5A16004FEB83 /* prog3_2 */,
+			6FFD95FF0F5C2BB50068C9D1 /* prog3_2 */,
 		);
 	};
 	6FAB77390DB9B6A1004FEB83 /* prog3_3 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB78560DBA5A16004FEB83 /* prog3_3 */,
+			6FFD96010F5C2BB50068C9D1 /* prog3_3 */,
 		);
 	};
 	6FAB77420DB9B6AA004FEB83 /* prog3_4 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB78580DBA5A16004FEB83 /* prog3_4 */,
+			6FFD96030F5C2BB50068C9D1 /* prog3_4 */,
 		);
 	};
 	6FAB77540DB9B6B6004FEB83 /* prog3_5 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB785A0DBA5A16004FEB83 /* prog3_5 */,
+			6FFD96050F5C2BB50068C9D1 /* prog3_5 */,
 		);
 	};
 	6FAB775D0DB9B6C0004FEB83 /* prog3_6 */ = {
 		activeExec = 0;
 		executables = (
-			6FAB785C0DBA5A16004FEB83 /* prog3_6 */,
-		);
-	};
-	6FAB78520DBA5A16004FEB83 /* prog3_1 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_1;
-		savedGlobals = {
-		};
-		sourceDirectories = (
-		);
-	};
-	6FAB78540DBA5A16004FEB83 /* prog3_2 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_2;
-		sourceDirectories = (
-		);
-	};
-	6FAB78560DBA5A16004FEB83 /* prog3_3 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_3;
-		sourceDirectories = (
-		);
-	};
-	6FAB78580DBA5A16004FEB83 /* prog3_4 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_4;
-		sourceDirectories = (
-		);
-	};
-	6FAB785A0DBA5A16004FEB83 /* prog3_5 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_5;
-		sourceDirectories = (
-		);
-	};
-	6FAB785C0DBA5A16004FEB83 /* prog3_6 */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = prog3_6;
-		sourceDirectories = (
+			6FFD96070F5C2BB50068C9D1 /* prog3_6 */,
 		);
 	};
 	6FAB78640DBA5A41004FEB83 /* prog3_1.c */ = {
@@ -364,6 +227,280 @@
 		rLoc = 443;
 		rType = 0;
 		vrLen = 520;
+		vrLoc = 0;
+	};
+	6FFD95D20F5C290A0068C9D1 /* goldyou */ = {
+		activeExec = 0;
+		executables = (
+			6FFD96090F5C2BB50068C9D1 /* goldyou */,
+		);
+	};
+	6FFD95DB0F5C292F0068C9D1 /* goldyou.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 635}}";
+			sepNavSelRange = "{778, 0}";
+			sepNavVisRange = "{0, 780}";
+		};
+	};
+	6FFD95E10F5C2A110068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95DB0F5C292F0068C9D1 /* goldyou.c */;
+		rLen = 0;
+		rLoc = 2147484287;
+		rType = 0;
+	};
+	6FFD95E20F5C2A110068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95DB0F5C292F0068C9D1 /* goldyou.c */;
+		name = "goldyou.c: 30";
+		rLen = 0;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 0;
+	};
+	6FFD95E90F5C2A8F0068C9D1 /* print1 */ = {
+		activeExec = 0;
+		executables = (
+			6FFD95EB0F5C2A8F0068C9D1 /* print1 */,
+		);
+	};
+	6FFD95EB0F5C2A8F0068C9D1 /* print1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = print1;
+		sourceDirectories = (
+		);
+	};
+	6FFD95EF0F5C2AAB0068C9D1 /* print1.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 635}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{0, 639}";
+		};
+	};
+	6FFD95FD0F5C2BB50068C9D1 /* prog3_1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_1;
+		sourceDirectories = (
+		);
+	};
+	6FFD95FF0F5C2BB50068C9D1 /* prog3_2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_2;
+		sourceDirectories = (
+		);
+	};
+	6FFD96010F5C2BB50068C9D1 /* prog3_3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_3;
+		sourceDirectories = (
+		);
+	};
+	6FFD96030F5C2BB50068C9D1 /* prog3_4 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_4;
+		sourceDirectories = (
+		);
+	};
+	6FFD96050F5C2BB50068C9D1 /* prog3_5 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_5;
+		sourceDirectories = (
+		);
+	};
+	6FFD96070F5C2BB50068C9D1 /* prog3_6 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prog3_6;
+		sourceDirectories = (
+		);
+	};
+	6FFD96090F5C2BB50068C9D1 /* goldyou */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = goldyou;
+		sourceDirectories = (
+		);
+	};
+	6FFD960C0F5C2BBA0068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95EF0F5C2AAB0068C9D1 /* print1.c */;
+		rLen = 0;
+		rLoc = 2147484249;
+		rType = 0;
+	};
+	6FFD960D0F5C2BBA0068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95EF0F5C2AAB0068C9D1 /* print1.c */;
+		name = "print1.c: 21";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 0;
+	};
+	6FFD960E0F5C2BBA0068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95DB0F5C292F0068C9D1 /* goldyou.c */;
+		name = "goldyou.c: 30";
+		rLen = 0;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 0;
+	};
+	6FFD96100F5C2BCF0068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95EF0F5C2AAB0068C9D1 /* print1.c */;
+		name = "print1.c: 27";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	6FFD96110F5C2BCF0068C9D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFD95DB0F5C292F0068C9D1 /* goldyou.c */;
+		name = "goldyou.c: 30";
+		rLen = 0;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 780;
 		vrLoc = 0;
 	};
 }

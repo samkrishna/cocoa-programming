@@ -13,21 +13,27 @@
 		6FAB787E0DBA6FFB004FEB83 /* prog3_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB787D0DBA6FFB004FEB83 /* prog3_4.c */; };
 		6FAB78820DBA7099004FEB83 /* prog3_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78810DBA7099004FEB83 /* prog3_5.c */; };
 		6FAB78950DBA713C004FEB83 /* prog3_6.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB78940DBA713C004FEB83 /* prog3_6.c */; };
+		6FFD95DC0F5C292F0068C9D1 /* goldyou.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD95DB0F5C292F0068C9D1 /* goldyou.c */; };
+		6FFD95F00F5C2AAB0068C9D1 /* print1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD95EF0F5C2AAB0068C9D1 /* print1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6FAB78510DBA5A16004FEB83 /* prog3_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_1; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_1; sourceTree = "<absolute>"; };
-		6FAB78530DBA5A16004FEB83 /* prog3_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_2; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_2; sourceTree = "<absolute>"; };
-		6FAB78550DBA5A16004FEB83 /* prog3_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_3; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_3; sourceTree = "<absolute>"; };
-		6FAB78570DBA5A16004FEB83 /* prog3_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_4; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_4; sourceTree = "<absolute>"; };
-		6FAB78590DBA5A16004FEB83 /* prog3_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_5; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_5; sourceTree = "<absolute>"; };
-		6FAB785B0DBA5A16004FEB83 /* prog3_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_6; path = /Volumes/aeternum/Projects/C/Chapter3/build/Debug/prog3_6; sourceTree = "<absolute>"; };
 		6FAB78640DBA5A41004FEB83 /* prog3_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_1.c; sourceTree = "<group>"; };
 		6FAB78710DBA6B1A004FEB83 /* prog3_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_2.c; sourceTree = "<group>"; };
 		6FAB78780DBA6F24004FEB83 /* prog3_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_3.c; sourceTree = "<group>"; };
 		6FAB787D0DBA6FFB004FEB83 /* prog3_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_4.c; sourceTree = "<group>"; };
 		6FAB78810DBA7099004FEB83 /* prog3_5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_5.c; sourceTree = "<group>"; };
 		6FAB78940DBA713C004FEB83 /* prog3_6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prog3_6.c; sourceTree = "<group>"; };
+		6FFD95DB0F5C292F0068C9D1 /* goldyou.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = goldyou.c; sourceTree = "<group>"; };
+		6FFD95EA0F5C2A8F0068C9D1 /* print1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = print1; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFD95EF0F5C2AAB0068C9D1 /* print1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print1.c; sourceTree = "<group>"; };
+		6FFD95FC0F5C2BB50068C9D1 /* prog3_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_1; path = build/Debug/prog3_1; sourceTree = "<group>"; };
+		6FFD95FE0F5C2BB50068C9D1 /* prog3_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_2; path = build/Debug/prog3_2; sourceTree = "<group>"; };
+		6FFD96000F5C2BB50068C9D1 /* prog3_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_3; path = build/Debug/prog3_3; sourceTree = "<group>"; };
+		6FFD96020F5C2BB50068C9D1 /* prog3_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_4; path = build/Debug/prog3_4; sourceTree = "<group>"; };
+		6FFD96040F5C2BB50068C9D1 /* prog3_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_5; path = build/Debug/prog3_5; sourceTree = "<group>"; };
+		6FFD96060F5C2BB50068C9D1 /* prog3_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = prog3_6; path = build/Debug/prog3_6; sourceTree = "<group>"; };
+		6FFD96080F5C2BB50068C9D1 /* goldyou */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = goldyou; path = build/Debug/goldyou; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +79,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FFD95D10F5C290A0068C9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFD95E80F5C2A8F0068C9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6FAB77160DB9B67D004FEB83 = {
+			isa = PBXGroup;
+			children = (
+				6FFD95CB0F5C28F70068C9D1 /* Source Code */,
+				6FFD95EA0F5C2A8F0068C9D1 /* print1 */,
+				6FFD95EF0F5C2AAB0068C9D1 /* print1.c */,
+				6FFD95FC0F5C2BB50068C9D1 /* prog3_1 */,
+				6FFD95FE0F5C2BB50068C9D1 /* prog3_2 */,
+				6FFD96000F5C2BB50068C9D1 /* prog3_3 */,
+				6FFD96020F5C2BB50068C9D1 /* prog3_4 */,
+				6FFD96040F5C2BB50068C9D1 /* prog3_5 */,
+				6FFD96060F5C2BB50068C9D1 /* prog3_6 */,
+				6FFD96080F5C2BB50068C9D1 /* goldyou */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFD95CB0F5C28F70068C9D1 /* Source Code */ = {
 			isa = PBXGroup;
 			children = (
 				6FAB78810DBA7099004FEB83 /* prog3_5.c */,
@@ -85,7 +121,9 @@
 				6FAB78710DBA6B1A004FEB83 /* prog3_2.c */,
 				6FAB787D0DBA6FFB004FEB83 /* prog3_4.c */,
 				6FAB78940DBA713C004FEB83 /* prog3_6.c */,
+				6FFD95DB0F5C292F0068C9D1 /* goldyou.c */,
 			);
+			name = "Source Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +142,7 @@
 			);
 			name = prog3_1;
 			productName = prog3_1;
-			productReference = 6FAB78510DBA5A16004FEB83 /* prog3_1 */;
+			productReference = 6FFD95FC0F5C2BB50068C9D1 /* prog3_1 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB77300DB9B697004FEB83 /* prog3_2 */ = {
@@ -120,7 +158,7 @@
 			);
 			name = prog3_2;
 			productName = prog3_2;
-			productReference = 6FAB78530DBA5A16004FEB83 /* prog3_2 */;
+			productReference = 6FFD95FE0F5C2BB50068C9D1 /* prog3_2 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB77390DB9B6A1004FEB83 /* prog3_3 */ = {
@@ -136,7 +174,7 @@
 			);
 			name = prog3_3;
 			productName = prog3_3;
-			productReference = 6FAB78550DBA5A16004FEB83 /* prog3_3 */;
+			productReference = 6FFD96000F5C2BB50068C9D1 /* prog3_3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB77420DB9B6AA004FEB83 /* prog3_4 */ = {
@@ -152,7 +190,7 @@
 			);
 			name = prog3_4;
 			productName = prog3_4;
-			productReference = 6FAB78570DBA5A16004FEB83 /* prog3_4 */;
+			productReference = 6FFD96020F5C2BB50068C9D1 /* prog3_4 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB77540DB9B6B6004FEB83 /* prog3_5 */ = {
@@ -168,7 +206,7 @@
 			);
 			name = prog3_5;
 			productName = prog3_5;
-			productReference = 6FAB78590DBA5A16004FEB83 /* prog3_5 */;
+			productReference = 6FFD96040F5C2BB50068C9D1 /* prog3_5 */;
 			productType = "com.apple.product-type.tool";
 		};
 		6FAB775D0DB9B6C0004FEB83 /* prog3_6 */ = {
@@ -184,7 +222,39 @@
 			);
 			name = prog3_6;
 			productName = prog3_6;
-			productReference = 6FAB785B0DBA5A16004FEB83 /* prog3_6 */;
+			productReference = 6FFD96060F5C2BB50068C9D1 /* prog3_6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FFD95D20F5C290A0068C9D1 /* goldyou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFD95DA0F5C29150068C9D1 /* Build configuration list for PBXNativeTarget "goldyou" */;
+			buildPhases = (
+				6FFD95D00F5C290A0068C9D1 /* Sources */,
+				6FFD95D10F5C290A0068C9D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goldyou;
+			productName = goldyou;
+			productReference = 6FFD96080F5C2BB50068C9D1 /* goldyou */;
+			productType = "com.apple.product-type.tool";
+		};
+		6FFD95E90F5C2A8F0068C9D1 /* print1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFD95F10F5C2AAC0068C9D1 /* Build configuration list for PBXNativeTarget "print1" */;
+			buildPhases = (
+				6FFD95E70F5C2A8F0068C9D1 /* Sources */,
+				6FFD95E80F5C2A8F0068C9D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = print1;
+			productName = print1;
+			productReference = 6FFD95EA0F5C2A8F0068C9D1 /* print1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -206,6 +276,8 @@
 				6FAB77420DB9B6AA004FEB83 /* prog3_4 */,
 				6FAB77540DB9B6B6004FEB83 /* prog3_5 */,
 				6FAB775D0DB9B6C0004FEB83 /* prog3_6 */,
+				6FFD95D20F5C290A0068C9D1 /* goldyou */,
+				6FFD95E90F5C2A8F0068C9D1 /* print1 */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +328,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAB78950DBA713C004FEB83 /* prog3_6.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFD95D00F5C290A0068C9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFD95DC0F5C292F0068C9D1 /* goldyou.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFD95E70F5C2A8F0068C9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFD95F00F5C2AAB0068C9D1 /* print1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +538,66 @@
 			};
 			name = Release;
 		};
+		6FFD95D50F5C290B0068C9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = goldyou;
+			};
+			name = Debug;
+		};
+		6FFD95D60F5C290B0068C9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = goldyou;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6FFD95EC0F5C2A900068C9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = print1;
+			};
+			name = Debug;
+		};
+		6FFD95ED0F5C2A900068C9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = print1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,6 +660,24 @@
 			buildConfigurations = (
 				6FAB77600DB9B6C0004FEB83 /* Debug */,
 				6FAB77610DB9B6C0004FEB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFD95DA0F5C29150068C9D1 /* Build configuration list for PBXNativeTarget "goldyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD95D50F5C290B0068C9D1 /* Debug */,
+				6FFD95D60F5C290B0068C9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFD95F10F5C2AAC0068C9D1 /* Build configuration list for PBXNativeTarget "print1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD95EC0F5C2A900068C9D1 /* Debug */,
+				6FFD95ED0F5C2A900068C9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
